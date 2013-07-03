@@ -23,7 +23,7 @@
         Symbols and equations in physics                 3
                                                                      light                                36
         Making measurements in physics                   4
-                                                                 3.2 Reﬂection and refraction of light    39
+                                                                 3.2 Reflection and refraction of light    39
         Uncertainty and accuracy                         6
                                                                  3.3 Lenses                               42
         Summary                                          8
@@ -89,9 +89,9 @@
                                                                 9.3 Stability                      121
            6.1 Thermal expansion                       77
                                                                 9.4 Friction                       123
-           6.2 Speciﬁc heat capacity                   79
+           6.2 Specific heat capacity                   79
                                                                 9.5 Equilibrium conditions         125
-           6.3 Speciﬁc latent heat                     81
+           6.3 Specific latent heat                     81
                                                                 Summary                            128
            6.4 Heat transfer                           84
                                                                 Revision questions                 128
@@ -122,7 +122,7 @@
            Revision questions                         102
                                                             11. Force and Motion                   144
 
-                                                                11.1 Newton’s laws of motion       144
+                                                                11.1 Newton's laws of motion       144
 
                                                                 11.2 Force and momentum            148
       8. Pressure                                     103
@@ -131,7 +131,7 @@
                                                                 Summary                            154
            8.2 Hydraulics                             104
                                                                 Revision questions                 155
-           8.3 Pressure in a ﬂuid at rest             106
+           8.3 Pressure in a fluid at rest             106
 
            8.4 Measurement of pressure                107
 

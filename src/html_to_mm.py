@@ -14,12 +14,24 @@
 # nother organization of a hierarchy of terms is a set of hierarchical web pages
 # with a root such as this ACM Comput. Classification Systems page:
 # http://dl.acm.org/ccs.cfm
+#
+# Notes specific to OCR of indexes & biblio pages:
+# 1. Substitute cd for: ((3 |?(? |Q() |«?') |~?)|«() |?(( |(c)|?) |«?3|©|(() |QC|(?) |«?) |(?) |«?) |~? |(3|
+# 2. Substitute ff for: ?|?'|
 
 import sys
 import os
 from lxml.html.clean import clean_html
 from pyquery import PyQuery
 import subprocess
+
+def prn_txt_for_sec(index, node) :
+  ce = PyQuery(node)
+  rowTxt = ce.text()
+  cols = ce('td')
+  curr_dep = len(cols)
+  if curr_dep > 1 :
+  	print rowTxt.encode('utf-8')
 
 def prn_mm_for_sec(index, node) :
   global last_rowTxt,node_id, curr_dep, last_dep, depth
@@ -56,7 +68,7 @@ def prn_mm_for_sec(index, node) :
     print >>sys.stderr,"...Start of new level-2 node: "+rowTxt
     depth = 1
   else :
-    print >>sys.stderr,"...Curr dep. is neither one more or less than prev. depth"
+    print >>sys.stderr,"...Curr dep. is neither one more nor less than prev. depth"
     print >>sys.stderr,"......Curr. dep:"+str(curr_dep)+" last dep:"+str(last_dep)
     print >>sys.stderr,"......Last Row Text:"+last_rowTxt
     print >>sys.stderr,"......Curr. Row Text:"+rowTxt
@@ -69,26 +81,26 @@ def prn_mm_for_sec(index, node) :
   node_id = node_id + 1
 
 def prn_tbl_sec(index, node) :
-  global node_id, curr_dep, last_dep, depth
-  if index != 0 :
-    print >>sys.stderr,"...Start of PART, depth="+str(depth)
-    ce = PyQuery(node)
-    # Print the part heading as containing node
-    partLst = ce.prevAll('h3')
-    partTxt = PyQuery(partLst[len(partLst)-1]).text()
-    if index % 2 == 0 :
-        print '<node CREATED="1347382439772" ID="PartID_'+str(index)+'" POSITION="left" MODIFIED="1347382510988" TEXT="'+partTxt.encode('utf-8')+'">'
-    else :
-        print '<node CREATED="1347382439772" ID="PartID_'+str(index)+'" POSITION="right" MODIFIED="1347382510988" TEXT="'+partTxt.encode('utf-8')+'">'
-    rows = ce('tr')
-    rows.each(prn_mm_for_sec)
-    # Print the closing tags for this table
-    print >>sys.stderr,"...End of PART, depth="+str(depth)
-    for i in range (0,depth) :
-      print '</node>'
-    print '</node>' #For the part heading containing node
-    depth=0
-    last_dep = 3
+	global node_id, curr_dep, last_dep, depth, opTyp
+	if index != 0 :
+		print >>sys.stderr,"...Start of PART, depth="+str(depth)
+		ce = PyQuery(node)
+    	# Print the part heading as containing node
+		partLst = ce.prevAll('h3')
+		partTxt = PyQuery(partLst[len(partLst)-1]).text()
+		if index % 2 == 0 :
+			print '<node CREATED="1347382439772" ID="PartID_'+str(index)+'" POSITION="left" MODIFIED="1347382510988" TEXT="'+partTxt.encode('utf-8')+'">'
+		else :
+			print '<node CREATED="1347382439772" ID="PartID_'+str(index)+'" POSITION="right" MODIFIED="1347382510988" TEXT="'+partTxt.encode('utf-8')+'">'
+    	rows = ce('tr')
+    	rows.each(prn_mm_for_sec)
+    	# Print the closing tags for this table
+    	print >>sys.stderr,"...End of PART, depth="+str(depth)
+    	for i in range (0,depth) :
+      		print '</node>'
+    	print '</node>' #For the part heading containing node
+    	depth=0
+    	last_dep = 3
 
 # START: of MAIN
 last_rowTxt = ''
@@ -97,27 +109,35 @@ curr_dep = 0
 node_id = 1
 depth = 0
 
-if (len(sys.argv)  == 1):
-  print >>sys.stderr,"Usage: "+__file__+" <URL/HTML file>"
+if (len(sys.argv) != 3):
+  print >>sys.stderr,"Usage: "+__file__+" <URL/HTML file> <mm or txt>"
   sys.exit(-1)
 ipUrl = sys.argv[1]
+opTyp = sys.argv[2]
 if ipUrl.find('http') == 0 :
-  d = PyQuery(ipUrl)
+	d = PyQuery(ipUrl)
 else :
-  html = open(ipUrl,'r').read()
-  d = PyQuery(html)
+  	html = open(ipUrl,'r').read()
+  	d = PyQuery(html)
 
-# Print the header of the .mm XML file
-print '<map version="1.0.0">'
+if opTyp == 'mm' :
+	# Print the header of the .mm XML file
+	print '<map version="1.0.0">'
 
-# Print the first or root node
-print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" LINK="http://www.mkse.upenn.edu" MODIFIED="1347382510988" TEXT="PLP 3e">'
-node_id = node_id + 1
-#rows = d('body > table tr')
-rows = d('table')
-rows.each(prn_tbl_sec)
+	# Print the first or root node
+	print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" LINK="http://www.mkse.upenn.edu" MODIFIED="1347382510988" TEXT="PLP 3e">'
+	node_id = node_id + 1
+	#rows = d('body > table tr')
+	rows = d('table')
+	rows.each(prn_tbl_sec)
 
-# Print the closing tags & other footer info
-for i in range (0,depth+1) :
-    print '</node>'
-print '</map>'
+	# Print the closing tags & other footer info
+	for i in range (0,depth+1) :
+   		print '</node>'
+	print '</map>'
+elif opTyp == 'txt' :
+	rows = d('body > table tr')
+	rows.each(prn_txt_for_sec)
+else :
+  	print >>sys.stderr,"Unsupported o/p type: "+opTyp
+  	sys.exit(-1)

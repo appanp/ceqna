@@ -1,0 +1,58 @@
+<map version="1.0.0">
+<node CREATED="1347382439772" ID="ID_1" LINK="http://www.mkse.upenn.edu" MODIFIED="1347382510988" TEXT="PLP 3e">
+<node CREATED="1347382439772" ID="ID_2" MODIFIED="1347382510988" TEXT="PART 1 Waves:1">
+<node CREATED="1347382439772" ID="ID_3" MODIFIED="1347382510988" TEXT="1. Properties of Waves:11:2">
+<node CREATED="1347382439772" ID="ID_3_4" MODIFIED="1347382510988" TEXT="1.1 Types of waves:11:3">
+</node>
+<node CREATED="1347382439772" ID="ID_3_5" MODIFIED="1347382510988" TEXT="1.2 Measuring waves:12:3">
+</node>
+<node CREATED="1347382439772" ID="ID_3_6" MODIFIED="1347382510988" TEXT="1.3 Properties of waves:14:3">
+</node>
+<node CREATED="1347382439772" ID="ID_3_7" MODIFIED="1347382510988" TEXT="1.4 Longitudinal and transverse waves:17:3">
+</node>
+<node CREATED="1347382439772" ID="ID_3_8" MODIFIED="1347382510988" TEXT="1.5 Polarised light:20:3">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_9" MODIFIED="1347382510988" TEXT="2. Sound:24:2">
+<node CREATED="1347382439772" ID="ID_10" MODIFIED="1347382510988" TEXT="2.1 The nature and properties of sound:24:3">
+</node>
+<node CREATED="1347382439772" ID="ID_3_11" MODIFIED="1347382510988" TEXT="2.2 The human ear:26:3">
+</node>
+<node CREATED="1347382439772" ID="ID_3_12" MODIFIED="1347382510988" TEXT="2.3 Ultrasonics:28:3">
+</node>
+<node CREATED="1347382439772" ID="ID_13" MODIFIED="1347382510988" TEXT="2.4 Vibrating strings:29:3">
+</node>
+<node CREATED="1347382439772" ID="ID_14" MODIFIED="1347382510988" TEXT="2.5 Acoustic resonance:31:3">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_15" MODIFIED="1347382510988" TEXT="3. Optics:36:2">
+<node CREATED="1347382439772" ID="ID_16" MODIFIED="1347382510988" TEXT="3.1 Interference and the nature of light:36:3">
+</node>
+<node CREATED="1347382439772" ID="ID_17" MODIFIED="1347382510988" TEXT="3.2 Reflection and refraction of light:39:3">
+</node>
+<node CREATED="1347382439772" ID="ID_18" MODIFIED="1347382510988" TEXT="3.3 Lenses:42:3">
+</node>
+<node CREATED="1347382439772" ID="ID_19" MODIFIED="1347382510988" TEXT="3.4 Optical instruments:46:3">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_20" MODIFIED="1347382510988" TEXT="4. Electromagnetic Waves:50:2">
+<node CREATED="1347382439772" ID="ID_21" MODIFIED="1347382510988" TEXT="4.1 The visible spectrum:50:3">
+</node>
+<node CREATED="1347382439772" ID="ID_22" MODIFIED="1347382510988" TEXT="4.2 Types of spectra:51:3">
+</node>
+<node CREATED="1347382439772" ID="ID_23" MODIFIED="1347382510988" TEXT="4.3 Infra-red and beyond:56:3">
+</node>
+<node CREATED="1347382439772" ID="ID_24" MODIFIED="1347382510988" TEXT="4.4 Ultraviolet radiation, X-radiation and gamma radiation:61:3">
+</node>
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_25" MODIFIED="1347382510988" TEXT="PART 2 Properties of Materials:1">
+<node CREATED="1347382439772" ID="ID_26" MODIFIED="1347382510988" TEXT="5. Matter and Molecules:67:2">
+<node CREATED="1347382439772" ID="ID_27" MODIFIED="1347382510988" TEXT="5.1 States of matter:67:3">
+</node>
+<node CREATED="1347382439772" ID="ID_28" MODIFIED="1347382510988" TEXT="5.2 Elements and compounds:69:3">
+</node>
+</node>
+</node>
+</node>
+</map>

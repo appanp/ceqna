@@ -1,0 +1,140 @@
+9780230_231924_01_prexii.qxd   11/24/09   5:24 PM   Page v
+
+
+
+
+                                                                                          PROOF
+
+
+        Contents
+        Preface                                          x       2.4 Vibrating strings                    29
+        How to use this book                             xi      2.5 Acoustic resonance                   31
+        Acknowledgements                                xii      Summary                                  34
+
+                                                                 Revision questions                       35
+        Units and Measurements                           1
+
+        Philosophy and practice in science               1
+
+        The S.I. system of units                         1
+                                                              3. Optics                                   36
+
+                                                                 3.1 Interference and the nature of
+        Symbols and equations in physics                 3
+                                                                     light                                36
+        Making measurements in physics                   4
+                                                                 3.2 Reflection and refraction of light    39
+        Uncertainty and accuracy                         6
+                                                                 3.3 Lenses                               42
+        Summary                                          8
+                                                                 3.4 Optical instruments                  46
+        Revision questions                               8
+                                                                 Summary                                  48
+
+                                                                 Revision questions                       49
+
+                           PART 1
+
+                          Waves                               4. Electromagnetic Waves                    50
+
+                                                                 4.1 The visible spectrum                 50
+
+                                                                 4.2 Types of spectra                     51
+
+        1. Properties of Waves                          11       4.3 Infra-red and beyond                 56
+
+             1.1 Types of waves                         11       4.4 Ultraviolet radiation, X-radiation
+                                                                     and gamma radiation                  61
+             1.2 Measuring waves                        12
+                                                                 Summary                                  63
+             1.3 Properties of waves                    14
+                                                                 Revision questions                       64
+             1.4 Longitudinal and transverse waves 17
+             1.5 Polarised light                        20
+
+             Summary                                    21
+                                                                              PART 2
+             Revision questions                         22
+
+                                                                  Properties of Materials
+        2. Sound                                        24
+
+             2.1 The nature and properties of
+                 sound                                  24    5. Matter and Molecules                     67
+
+             2.2 The human ear                          26       5.1 States of matter                     67
+
+             2.3 Ultrasonics                            28       5.2 Elements and compounds               69
+9780230_231924_01_prexii.qxd    11/24/09    5:24 PM   Page vi
+
+
+
+
+                                                                                           PROOF
+      vi                        CONTENTS
+
+           5.3 The Avogadro constant, NA               72                       PART 3
+           5.4 Intermolecular forces                   73
+
+           Summary                                     76                 Mechanics
+           Revision questions                          76
+
+
+                                                            9. Forces in Equilibrium               115
+
+                                                                9.1 Force as a vector              115
+      6. Thermal Properties of
+                                                                9.2 Turning effects                119
+           Materials                                   77
+                                                                9.3 Stability                      121
+           6.1 Thermal expansion                       77
+                                                                9.4 Friction                       123
+           6.2 Specific heat capacity                   79
+                                                                9.5 Equilibrium conditions         125
+           6.3 Specific latent heat                     81
+                                                                Summary                            128
+           6.4 Heat transfer                           84
+                                                                Revision questions                 128
+           6.5 More about thermal conduction           86
+
+           Summary                                     89
+
+           Revision questions                          90   10. Dynamics                           130
+
+                                                                10.1 Speed and distance            130
+
+                                                                10.2 Speed and velocity            132
+
+      7. Strength of Solids                            91       10.3 Acceleration                  133
+
+           7.1 Measuring force                         91       10.4 The equations for uniform
+                                                                     acceleration                  136
+           7.2 Force and materials                     93
+                                                                10.5 Acceleration due to gravity   138
+           7.3 Stress and strain                       94
+                                                                10.6 Rates of change               141
+           7.4 Stress versus strain curves             97
+                                                                Summary                            143
+           7.5 Elastic energy                         100
+                                                                Revision questions                 143
+           Summary                                    102
+
+           Revision questions                         102
+                                                            11. Force and Motion                   144
+
+                                                                11.1 Newton's laws of motion       144
+
+                                                                11.2 Force and momentum            148
+      8. Pressure                                     103
+                                                                11.3 Conservation of momentum      150
+           8.1 Pressure and force                     103
+                                                                Summary                            154
+           8.2 Hydraulics                             104
+                                                                Revision questions                 155
+           8.3 Pressure in a fluid at rest             106
+
+           8.4 Measurement of pressure                107
+
+           8.5 Flotation                              110   12. Energy and Power                   156
+           Summary                                    112       12.1 Work and energy               156
+           Revision questions                         112       12.2 Power and energy              159

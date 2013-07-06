@@ -1,0 +1,72 @@
+Periodic Table v
+Preface xi
+To the Student: How to Use this Book xii
+Acknowledgements xiii
+Useful Physical Constants;
+General Data; Conversion Factors;
+Using the NIST Website xiv
+1 Numbers, Units and Measurement 1
+1.1 Very small and very big numbers 1
+1.2 Logarithms 2
+1.3 Units 3
+1.4 Errors in experiments 6
+1.5 Reporting measurements 10
+Revision questions 14
+2 Elements, Compounds and Reactions 15
+2.1 Matter and energy 15
+2.2 Physical and chemical changes 19
+2.3 Chemical formulae 20
+2.4 Writing and balancing equations 24
+Revision questions 28
+3 Inside the Atom 29
+3.1 Atomic structure 29
+3.2 Isotopes 32
+3.3 Mass spectrometer 35
+3.4 Electronic structure of atoms 38
+3.5 Evidence for the existence of energy
+levels in atoms 40
+3.6 More advanced ideas about electronic
+structure 41
+Revision questions 45
+4 Bonding Between Atoms 46
+4.1 Why atoms combine 46
+4.2 Ionic bonding 47
+4.3 Covalent bonding 52
+4.4 Coordinate bonding 56
+4.5 Ionic and covalent compounds - two
+extremes 57
+4.6 Resonance structures 60
+Revision questions 62
+5 More about Bonding 63
+5.1 Exceptions to the octet rule 63
+5.2 Shapes of molecules 65
+5.3 Shapes of molecules with multiple bonds 69
+5.4 Molecules with and without dipoles 71
+5.5 Metallic bonding 72
+5.6 Giant molecules 73
+5.7 Forces between covalent molecules 75
+Revision questions 81
+6 Reactions of Ions in Solution 82
+6.1 Dissolution of salts in water 82
+6.2 Ionic equations 83
+6.3 Producing ions in water by chemical
+reaction 86
+6.4 Acids and bases 90
+6.5 Reactions of acids 91
+6.6 Acids produced when gases CO2, SO2
+and NO2 dissolve in water 95
+6.7 Reactions of the hydroxide ion 95
+6.8 Use of reactions in the identification of
+ions in solution 97
+Revision questions 98
+7 Oxidation and Reduction 100
+7.1 Redox reactions 100
+7.2 Oxidation numbers 102
+7.3 Oxidizing and reducing agents 104
+7.4 Writing and balancing redox equations 104
+7.5 Redox couples 107
+7.6 Activity series of metals 113
+7.7 Corrosion of iron 114
+7.8 Redox reactions in nature 115
+Revision questions 117
+

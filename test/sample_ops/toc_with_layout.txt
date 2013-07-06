@@ -1,0 +1,247 @@
+Preface:x
+How to use this book:xi
+Acknowledgements:xii
+Units and Measurements:1
+Philosophy and practice in science:1
+The S.I. system of units:1
+Symbols and equations in physics:3
+Making measurements in physics:4
+Uncertainty and accuracy:6
+Summary:8
+Revision questions:8
+PART 1 Waves
+1. Properties of Waves:11
+1.1 Types of waves:11
+1.2 Measuring waves:12
+1.3 Properties of waves:14
+1.4 Longitudinal and transverse waves 17
+1.5 Polarised light:20
+Summary:21
+Revision questions:22
+2. Sound:24
+2.1 The nature and properties of sound:24
+2.2 The human ear:26
+2.3 Ultrasonics:28
+2.4 Vibrating strings:29
+2.5 Acoustic resonance:31
+Summary:34
+Revision questions:35
+3. Optics:36
+3.1 Interference and the nature of light:36
+3.2 Reﬂection and refraction of light:39
+3.3 Lenses:42
+3.4 Optical instruments:46
+Summary:48
+Revision questions:49
+4. Electromagnetic Waves:50
+4.1 The visible spectrum:50
+4.2 Types of spectra:51
+4.3 Infra-red and beyond:56
+4.4 Ultraviolet radiation, X-radiation and gamma radiation:61
+Summary:63
+Revision questions:64
+PART 2 Properties of Materials
+5. Matter and Molecules:67
+5.1 States of matter:67
+5.2 Elements and compounds:69
+5.3 The Avogadro constant, NA:72
+5.4 Intermolecular forces:73
+Summary:76
+Revision questions:76
+6. Thermal Properties of Materials:77
+6.1 Thermal expansion:77
+6.2 Speciﬁc heat capacity:79
+6.3 Speciﬁc latent heat:81
+6.4 Heat transfer:84
+6.5 More about thermal conduction:86
+Summary:89
+Revision questions:90
+7. Strength of Solids:91
+7.1 Measuring force:91
+7.2 Force and materials:93
+7.3 Stress and strain:94
+7.4 Stress versus strain curves:97
+7.5 Elastic energy:100
+Summary:102
+Revision questions:102
+8. Pressure:103
+8.1 Pressure and force:103
+8.2 Hydraulics:104
+8.3 Pressure in a ﬂuid at rest:106
+8.4 Measurement of pressure:107
+8.5 Flotation:110
+Summary:112
+Revision questions:112
+PART 3 Mechanics
+9. Forces in Equilibrium:115
+9.1 Force as a vector:115
+9.2 Turning effects:119
+9.3 Stability:121
+9.4 Friction:123
+9.5 Equilibrium conditions:125
+Summary:128
+Revision questions:128
+10. Dynamics:130
+10.1 Speed and distance:130
+10.2 Speed and velocity:132
+10.3 Acceleration:133
+10.4 The equations for uniform acceleration:136
+10.5 Acceleration due to gravity:138
+10.6 Rates of change:141
+Summary:143
+Revision questions:143
+11. Force and Motion:144
+11.1 Newton’s laws of motion:144
+11.2 Force and momentum:148
+11.3 Conservation of momentum:150
+Summary:154
+Revision questions:155
+12. Energy and Power:156
+12.1 Work and energy:156
+12.2 Power and energy:159
+12.3 Efficiency:161
+12.4 Energy resources:163
+Summary:167
+Revision questions:168
+PART 4 Electricity
+13. Introduction to Electricity:171
+13.1 Static electricity:171
+13.2 Current and charge:174
+13.3 Potential difference:178
+13.4 Resistance:181
+Summary:185
+Revision questions:185
+14. Electric Circuits:187
+14.1 Cells and batteries:187
+14.2 The potentiometer:190
+14.3 The Wheatstone bridge:194
+14.4 Resistivity:197
+14.5 Electrical measurements:198
+Summary:201
+Revision questions:202
+15. Capacitors:204
+15.1 Storing charge:204
+15.2 Capacitor combinations:207
+15.3 Energy stored in a charged capacitor:210
+15.4 Capacitor design factors:211
+15.5 Capacitor discharge:213
+Summary:216
+Revision questions:217
+16. Electronics:218
+16.1 The systems approach:218
+16.2 Electronic logic:219
+16.3 Electronics at work:223
+16.4 Operational ampliﬁers:226
+16.5 Multivibrators:232
+Summary:233
+Revision questions:234
+PART 5 Fields
+17. Electric Fields:237
+17.1 Electrostatic forces:237
+17.2 Electric ﬁeld patterns:239
+17.3 Electric ﬁeld strength:244
+17.4 Electric potential:247
+Summary:249
+Revision questions:250
+18. Magnetic Fields:251
+18.1 Magnetic ﬁeld patterns:251
+18.2 Electromagnets:254
+18.3 The motor effect:255
+18.4 Magnetic ﬂux density:258
+18.5 Magnetic ﬁeld formulae:261
+18.6 Magnetic materials:264
+Summary:266
+Revision questions:267
+19. Electromagnetic Induction:268
+19.1 The dynamo effect:268
+19.2 Magnetic ﬂux:271
+19.3 The alternating current generator:274
+19.4 The transformer:276
+19.5 Self-inductance:280
+Summary:282
+Revision questions:283
+20. Alternating Current:284
+20.1 Measurement of alternating currents and voltages:284
+20.2 Rectiﬁer circuits:287
+20.3 Alternating current and power:289
+20.4 Capacitors in a.c. circuits:291
+20.5 Coils in a.c. circuits:295
+20.6 Resonant circuits:297
+Summary:299
+Revision questions:300
+PART 6 Atomic and Nuclear Physics
+21. Electrons and Photons:303
+21.1 Electron beams:303
+21.2 The charge of the electron:308
+21.3 Photoelectricity:311
+21.4 Electrons in the atom:315
+21.5 X-rays:318
+21.6 Wave mechanics:321
+Summary:325
+Revision questions:326
+22. Radioactivity:327
+22.1 Inside the atom:327
+22.2 Radiation from radioactive substances:329
+22.3 The range and penetrating power of alpha, beta and gamma radiation:333
+22.4 Radioactive decay:337
+22.5 The mathematics of radioactive decay:340
+Summary:342
+Revision questions:342
+23. Energy from the Nucleus:344
+23.1 The nature of force:344
+23.2 Binding energy:347
+23.3 Nuclear power:352
+23.4 Probing the nucleus:357
+Summary:361
+Revision questions:362
+PART 7 Further Physics
+24. Gases:365
+24.1 The gas laws:365
+24.2 The ideal gas equation:370
+24.3 The kinetic theory of gases:371
+Summary:375
+Revision questions:376
+25. Thermodynamics:377
+25.1 Temperature:377
+25.2 Heat and work:380
+25.3 The thermodynamics of ideal gases:382
+25.4 The Second Law of Thermodynamics:387
+Summary:390
+Revision questions:391
+26. Uniform Circular Motion:392
+26.1 Circular measures:392
+26.2 Centripetal acceleration:394
+26.3 Reactions and rides:396
+Summary:399
+Revision questions:400
+27. Gravitation:401
+27.1 Newton’s theory of gravity:401
+27.2 Gravitational ﬁeld strength:404
+27.3 Gravitational potential energy:406
+27.4 Satellite motion:409
+Summary:411
+Revision questions:412
+28. Simple Harmonic Motion:413
+28.1 Oscillating motion:413
+28.2 Sine waves:415
+28.3 Forces in oscillating systems:417
+28.4 Resonance:421
+Summary:423
+Revision questions:424
+29. Fluid Flow:425
+29.1 Flow patterns:425
+29.2 Flow rates:428
+29.3 Viscous ﬂow:431
+29.4 Non-viscous ﬂow:436
+Summary:439
+Revision questions:440
+Further Questions:441
+Using Spreadsheets:452
+List of Experiments in the Book:454
+Location Guide to Mathematical Skills:456
+Summary of Equations:457
+Useful Data:461
+Answers to In-text Questions and Revision Questions:462
+Answers to Further Questions:494
+Glossary:495
+Index:501

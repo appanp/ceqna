@@ -14,21 +14,27 @@ curr_rt_topic = ''
 cols = []
 last_depth = 0
 node_id = 1
+part_present = 0
 # END: Global variables
 
 # START: Functions
 def get_depth(ip_str) :
+    global part_present
     dep = 0
     spc = ip_str.find(' ')
     num_pfx = ip_str[0:spc]
     if ip_str.startswith('PART'):
         dep = 1
+        part_present = 1
     else:
         num_dots = num_pfx.count('.')
         if num_pfx.strip().endswith('.') :
             dep = num_dots + 1
         else :
-            dep = num_dots + 2
+            if part_present :
+			    dep = num_dots + 2
+            else :
+				dep = num_dots + 1
     #print >>sys.stderr,"*** get_depth() ip_str:"+num_pfx+" dep:"+str(dep)
     return dep
 
@@ -56,7 +62,7 @@ def op_end_tags(dep) :
 
 def op_lt_col_txt(idx) :
     global curr_lt_topic, cols
-    initNumRe = re.compile('^(?P<sect_num>\d+\.|\d+\.\d+|\d+\.\d+\.\d+)\s')
+    initNumRe = re.compile('^(?P<sect_num>\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
 	# match() matches from the start while search() searches for pattern in entire string
     # Since using match() we could remove the ^ in the pattern as well.
     initNum = initNumRe.match(cols[idx].strip())
@@ -72,7 +78,7 @@ def op_lt_col_txt(idx) :
 
 def op_lt_col_mm(idx) :
     global curr_lt_topic, cols, node_id
-    initNumRe = re.compile('^(?P<sect_num>\d+\.|\d+\.\d+|\d+\.\d+\.\d+)\s')
+    initNumRe = re.compile('^(?P<sect_num>\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
     # match() matches from the start while search() searches for pattern in entire string
     # Since using match() we could remove the ^ in the pattern as well.
     initNum = initNumRe.match(cols[idx].strip())
@@ -97,7 +103,7 @@ def op_lt_col_mm(idx) :
             node_id = node_id + 1
        	curr_lt_topic = ''
     else :
-        initNumRe = re.compile('(PART|\d+\.|\d+\.\d+|\d+\.\d+\.\d+)\s')
+        initNumRe = re.compile('(PART|\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
         initNum = initNumRe.match(cols[idx].strip())
         if initNum is not None :
             dep = get_depth(cols[idx].strip())
@@ -108,7 +114,7 @@ def op_lt_col_mm(idx) :
 
 def append_rt_col_lines(idx) :
     global rt_col_lines, curr_rt_topic, cols
-    initNumRe = re.compile('^(\d+\.|\d+\.\d+|\d+\.\d+\.\d+)\s')
+    initNumRe = re.compile('^(\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
     initNum = initNumRe.match(cols[idx].strip())
     if curr_rt_topic != '':
         if not initNum :
@@ -142,7 +148,7 @@ def op_rt_col_lines_txt() :
 
 def op_rt_col_lines_mm() :
     global rt_col_lines, node_id
-    initNumRe = re.compile('(PART|\d+\.|\d+\.\d+|\d+\.\d+\.\d+)\s')
+    initNumRe = re.compile('(PART|\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
     for itm in rt_col_lines:
         initNum = initNumRe.match(itm)
         if initNum is not None :
@@ -156,17 +162,18 @@ def op_rt_col_lines_mm() :
 # END: Functions
 
 # START: Main
-if (len(sys.argv) != 3):
-  print >>sys.stderr,"Usage: "+__file__+" <pdftotext o/p txt file> <mm or txt>"
+if (len(sys.argv) != 4):
+  print >>sys.stderr,"Usage: "+__file__+" <pdftotext o/p txt file> <mm or txt> <root node text"
   sys.exit(-1)
 ipF = open(sys.argv[1],'r')
 opTyp = sys.argv[2]
+root_txt = sys.argv[3]
 if opTyp == 'mm' :
     # Print the header of the .mm XML file
     print '<map version="1.0.0">'
 
     # Print the first or root node
-    print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" LINK="http://www.mkse.upenn.edu" MODIFIED="1347382510988" TEXT="PLP 3e">'
+    print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" LINK="'+sys.argv[1]+'" MODIFIED="1347382510988" TEXT="'+root_txt+'">'
     node_id = node_id + 1
 
 for line in ipF :
@@ -192,7 +199,8 @@ for line in ipF :
     # <lt col>       <rt col> <num>: 4, col[3] is empty string
     # <lt col> <num> <rt col>      : 4, col[3] is <rt col>
     # <lt col> <num> <rt col> <num>: 7, col[6] is empty string
-    p = re.compile('\s\s+([ixv]+|\d+)(\s+|$)')
+	#p = re.compile('\s\s+([ixv]+|\d+)(\s+|$)')
+    p = re.compile('\s+([ixv]+|\d+)(\s+|$)')
     l_spcs = re.compile('\s+')
     l_spcs_mo = l_spcs.match(line)
     cols = p.split(line)

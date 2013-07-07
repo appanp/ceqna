@@ -1,6 +1,6 @@
-<map version="0.9.0">
+<map version="1.0.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1347382439772" ID="ID_1" LINK="test/real_ips/chem_roblewis_4thed_acroread_cp.txt" MODIFIED="1347382510988" TEXT="Chem">
+<node CREATED="1347382439772" ID="ID_1" LINK="test/real_ips/chem_roblewis_4thed_acroread_cp.txt" MODIFIED="1373192876772" TEXT="Chemistry">
 <node CREATED="1347382439772" FOLDED="true" ID="ID_96" MODIFIED="1373118800015" POSITION="right" TEXT="13 Energy Changes in Chemical Reactions:215">
 <node CREATED="1347382439772" ID="ID_3_97" MODIFIED="1347382510988" TEXT="13.1 Conservation of energy:215"/>
 <node CREATED="1347382439772" ID="ID_3_98" MODIFIED="1347382510988" TEXT="13.2 Key points about enthalpy changes:218"/>
@@ -115,7 +115,7 @@
 </node>
 <node CREATED="1370519991781" ID="ID_76714044" MODIFIED="1373119700515" POSITION="left" TEXT="Rob Lewis &amp; Wynne Evans"/>
 <node CREATED="1370520015421" ID="ID_534925968" MODIFIED="1373119700546" POSITION="left" TEXT="4th Edition, 2011"/>
-<node CREATED="1370520027562" FOLDED="true" ID="ID_1701693941" MODIFIED="1373119668640" POSITION="left" TEXT="2. Elements, Compounds &amp; Reactions">
+<node CREATED="1370520027562" FOLDED="true" ID="ID_1701693941" MODIFIED="1373192719439" POSITION="left" TEXT="2. Elements, Compounds &amp; Reactions">
 <node CREATED="1370520176000" ID="ID_866301652" MODIFIED="1370521941765" TEXT="2.1 Matter &#xa;&amp; Energy">
 <node CREATED="1370520205687" ID="ID_761480266" MODIFIED="1370520212343" TEXT="Mass &amp; Weight"/>
 <node CREATED="1370520213437" ID="ID_1350514184" MODIFIED="1370520220156" TEXT="Work"/>
@@ -208,7 +208,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1370525999281" ID="ID_167410087" MODIFIED="1373119923578" POSITION="left" TEXT="3. Inside the Atom">
+<node CREATED="1370525999281" FOLDED="true" ID="ID_167410087" MODIFIED="1373192661358" POSITION="left" TEXT="3. Inside the Atom">
 <node CREATED="1370526173265" ID="ID_321576761" MODIFIED="1370526181718" TEXT="3.1 Atomic Structure">
 <node CREATED="1370526277406" ID="ID_1514085699" MODIFIED="1370526279546" TEXT="History">
 <node CREATED="1370526281218" ID="ID_1727643328" MODIFIED="1370526310875" TEXT="1897: J.J.Thomson - gases at low pressure conduct electricity"/>
@@ -249,7 +249,7 @@
       molecular mass = sum of the atomic masses
     </p>
     <p>
-       of atoms of the molecule
+      &#xfffd;of atoms of the molecule
     </p>
   </body>
 </html></richcontent>

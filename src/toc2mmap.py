@@ -15,6 +15,7 @@ cols = []
 last_depth = 0
 node_id = 1
 part_present = 0
+debug = 0
 # END: Global variables
 
 # START: Functions
@@ -35,7 +36,7 @@ def get_depth(ip_str) :
 			    dep = num_dots + 2
             else :
 				dep = num_dots + 1
-    #print >>sys.stderr,"*** get_depth() ip_str:"+num_pfx+" dep:"+str(dep)
+    #print >>sys.stderr,"*** get_depth() ip_str:"+ip_str+" dep:"+str(dep)
     return dep
 
 def op_end_tags(dep) :
@@ -86,19 +87,28 @@ def op_lt_col_mm(idx) :
         if not initNum :
             dep = get_depth(curr_lt_topic)
             op_end_tags(dep)
-            nodeTxt = curr_lt_topic + ' ' + cols[idx].strip() + ':' + cols[idx+1].strip()
+            if debug:
+                nodeTxt = curr_lt_topic + ' ' + cols[idx].strip() + ':' + cols[idx+1].strip() + ':' + str(dep)
+            else:
+                nodeTxt = curr_lt_topic + ' ' + cols[idx].strip() + ':' + cols[idx+1].strip()
             print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
         else :
             dep = get_depth(curr_lt_topic)
             op_end_tags(dep)
-            nodeTxt = curr_lt_topic
+            if debug:
+                nodeTxt = curr_lt_topic + ':' + str(dep)
+            else:
+                nodeTxt = curr_lt_topic
             print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
             section_num = initNum.group('sect_num')
             dep = get_depth(section_num)
             op_end_tags(dep)
-            nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip()
+            if debug:
+                nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip() + ':' + str(dep)
+            else :
+                nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip()
             print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
        	curr_lt_topic = ''
@@ -108,13 +118,21 @@ def op_lt_col_mm(idx) :
         if initNum is not None :
             dep = get_depth(cols[idx].strip())
             op_end_tags(dep)
-            nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip()
+            if debug:
+                nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip() + ':' + str(dep)
+            else:
+                nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip()
             print '<node CREATED="1347382439772" ID="ID_3_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
+        else:
+            # Take care of case when it is PART<spc><Num> which is taken as page num
+            if cols[idx].strip().startswith('PART') :
+                curr_lt_topic = cols[idx].strip() + ' ' +cols[idx+1].strip()
 
 def append_rt_col_lines(idx) :
     global rt_col_lines, curr_rt_topic, cols
-    initNumRe = re.compile('^(\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
+    #print >>sys.stderr,"+++ In append_rt_col_lines:"+cols[idx].strip()+':'+cols[idx+1].strip()
+    initNumRe = re.compile('(\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
     initNum = initNumRe.match(cols[idx].strip())
     if curr_rt_topic != '':
         if not initNum :
@@ -124,7 +142,10 @@ def append_rt_col_lines(idx) :
             rt_col_lines.append(cols[idx].strip() + ':' + cols[idx+1].strip())
         curr_rt_topic = ''
     else :
-        rt_col_lines.append(cols[idx].strip() + ':' + cols[idx+1].strip())
+        if cols[idx].strip().startswith('PART') :
+            curr_rt_topic = cols[idx].strip() + ' ' + cols[idx+1].strip()
+        else :
+            rt_col_lines.append(cols[idx].strip() + ':' + cols[idx+1].strip())
 
 def add_curr_lt_topic(idx) :
     global curr_lt_topic, cols
@@ -154,7 +175,10 @@ def op_rt_col_lines_mm() :
         if initNum is not None :
             dep = get_depth(itm)
             op_end_tags(dep)
-            nodeTxt = itm
+            if debug:
+                nodeTxt = itm + ':' + str(dep)
+            else :
+                nodeTxt = itm
             print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
     rt_col_lines = []
@@ -199,12 +223,12 @@ for line in ipF :
     # <lt col>       <rt col> <num>: 4, col[3] is empty string
     # <lt col> <num> <rt col>      : 4, col[3] is <rt col>
     # <lt col> <num> <rt col> <num>: 7, col[6] is empty string
-	#p = re.compile('\s\s+([ixv]+|\d+)(\s+|$)')
+    #p = re.compile('\s\s+([ixv]+|\d+)(\s+|$)')
     p = re.compile('\s+([ixv]+|\d+)(\s+|$)')
     l_spcs = re.compile('\s+')
     l_spcs_mo = l_spcs.match(line)
     cols = p.split(line)
-    #print "...len of cols:"+str(len(cols))+" line:"+line
+    #print >>sys.stderr,"...len of cols:"+str(len(cols))+" line:"+line
     if len(cols) == 1 :
 		# Could be either left and/or right column without page number
         if l_spcs_mo and (l_spcs_mo.end() >= 60) :
@@ -214,7 +238,7 @@ for line in ipF :
         # TODO: Handle both left & right cols. texts
     elif len(cols) == 2 or len(cols) == 3 :
         # This can never happen: just print the line
-        print "...Split array has two/three segments"
+        print >>sys.stderr,"...Split array has two/three segments"
     elif len(cols) == 4 :
         if cols[3].strip() != '' :
             if opTyp == 'mm' :
@@ -223,6 +247,7 @@ for line in ipF :
 			    op_lt_col_txt(0)
             add_curr_rt_topic(3)
         else :
+            #print >>sys.stderr, "...i/p line: "+line
             if l_spcs_mo and (l_spcs_mo.end() >= 60) :
                 append_rt_col_lines(0)
             else :

@@ -115,7 +115,7 @@
 </node>
 <node CREATED="1370519991781" ID="ID_76714044" MODIFIED="1373119700515" POSITION="left" TEXT="Rob Lewis &amp; Wynne Evans"/>
 <node CREATED="1370520015421" ID="ID_534925968" MODIFIED="1373119700546" POSITION="left" TEXT="4th Edition, 2011"/>
-<node CREATED="1370520027562" FOLDED="true" ID="ID_1701693941" MODIFIED="1373192719439" POSITION="left" TEXT="2. Elements, Compounds &amp; Reactions">
+<node CREATED="1370520027562" FOLDED="true" ID="ID_1701693941" MODIFIED="1373959774140" POSITION="left" TEXT="2. Elements, Compounds &amp; Reactions">
 <node CREATED="1370520176000" ID="ID_866301652" MODIFIED="1370521941765" TEXT="2.1 Matter &#xa;&amp; Energy">
 <node CREATED="1370520205687" ID="ID_761480266" MODIFIED="1370520212343" TEXT="Mass &amp; Weight"/>
 <node CREATED="1370520213437" ID="ID_1350514184" MODIFIED="1370520220156" TEXT="Work"/>
@@ -208,7 +208,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1370525999281" FOLDED="true" ID="ID_167410087" MODIFIED="1373192661358" POSITION="left" TEXT="3. Inside the Atom">
+<node CREATED="1370525999281" FOLDED="true" ID="ID_167410087" MODIFIED="1374051899235" POSITION="left" TEXT="3. Inside the Atom">
 <node CREATED="1370526173265" ID="ID_321576761" MODIFIED="1370526181718" TEXT="3.1 Atomic Structure">
 <node CREATED="1370526277406" ID="ID_1514085699" MODIFIED="1370526279546" TEXT="History">
 <node CREATED="1370526281218" ID="ID_1727643328" MODIFIED="1370526310875" TEXT="1897: J.J.Thomson - gases at low pressure conduct electricity"/>
@@ -288,16 +288,228 @@
 <node CREATED="1370528047171" ID="ID_985150685" MODIFIED="1370528053562" TEXT="Orbitals &amp; Sublevels"/>
 </node>
 </node>
-<node CREATED="1347382439772" FOLDED="true" ID="ID_3_22" MODIFIED="1373119731265" POSITION="left" TEXT="4 Bonding Between Atoms:46">
-<node CREATED="1347382439772" ID="ID_3_23" MODIFIED="1347382510988" TEXT="4.1 Why atoms combine:46"/>
-<node CREATED="1347382439772" ID="ID_3_24" MODIFIED="1347382510988" TEXT="4.2 Ionic bonding:47"/>
-<node CREATED="1347382439772" ID="ID_3_25" MODIFIED="1347382510988" TEXT="4.3 Covalent bonding:52"/>
+<node CREATED="1347382439772" ID="ID_3_22" MODIFIED="1373959778155" POSITION="left" TEXT="4 Bonding Between Atoms:46">
+<node CREATED="1347382439772" FOLDED="true" ID="ID_3_23" MODIFIED="1374053570742" TEXT="4.1 Why atoms combine:46">
+<node CREATED="1374052384056" ID="ID_642246912" MODIFIED="1374052409167" TEXT="Chemical bonds: forces that hold atoms together in compounds"/>
+<node CREATED="1374052430645" ID="ID_502306210" MODIFIED="1374052537463">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Noble (or Inert)
+    </p>
+    <p>
+      gases
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1374052435230" ID="ID_581978639" MODIFIED="1374052461142" TEXT="He,Ne,Ar,Kr,Xe,Rn"/>
+<node CREATED="1374052810999" ID="ID_1979693484" MODIFIED="1374052824015" TEXT="He,Ne,Ar: do not react with any others"/>
+<node CREATED="1374052824639" ID="ID_704912250" MODIFIED="1374052845783" TEXT="Kr,Xe: react with highly reactive flourine"/>
+<node CREATED="1374052593669" ID="ID_286303906" MODIFIED="1374052606276" TEXT="Inert or unreactive: chemically stable"/>
+<node CREATED="1374052743827" ID="ID_725753433" MODIFIED="1374052765644" TEXT="8e in outer shell: stable octet"/>
+</node>
+<node CREATED="1374052479828" ID="ID_683218827" MODIFIED="1374052486868" TEXT="Lewis Symbols">
+<node CREATED="1374053445899" ID="ID_1226752065" MODIFIED="1374053458422" TEXT="1916: Kossel &amp; Lewis"/>
+<node CREATED="1374053459451" ID="ID_1536289034" MODIFIED="1374053566406" TEXT="proposed that atoms of elements react with each other&#xa; in order to achieve the stable elec. config. of noble gases"/>
+</node>
+</node>
+<node CREATED="1347382439772" FOLDED="true" ID="ID_3_24" MODIFIED="1374153206081" TEXT="4.2 Ionic bonding:47">
+<node CREATED="1374053668160" ID="ID_1652629301" MODIFIED="1374053783361" TEXT="NaCl is composed of Na^+ &amp; Cl^- ions in 1:1 ratio"/>
+<node CREATED="1374053696016" ID="ID_1766671668" MODIFIED="1374053723384" TEXT="Compound is called ionic &amp; bonding is also ionic"/>
+<node CREATED="1374053759807" ID="ID_1351806232" MODIFIED="1374053780185" TEXT="Identity of atoms is based on no. of protons in nucleus"/>
+<node CREATED="1374057060258" ID="ID_1642238689" MODIFIED="1374057071397" TEXT="Arrangement of ions in NaCl">
+<node CREATED="1374058610106" ID="ID_88595640" MODIFIED="1374058672414" TEXT="Giant lattice structure: building brick is called &apos;&apos;unit cell&apos;&apos;"/>
+<node CREATED="1374058673005" ID="ID_482365508" MODIFIED="1374058691333" TEXT="Each Na ion is surrounded by six Cl ions &amp; vice-versa"/>
+<node CREATED="1374058701981" ID="ID_1045683004" MODIFIED="1374058728013" TEXT="Ions held together by electrostatic forces"/>
+<node CREATED="1374058728621" ID="ID_412360094" MODIFIED="1374148573646">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Technique: X-ray diffraction
+    </p>
+    <p>
+      It allows us to see ions with strong ionic bonds
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1374057073362" ID="ID_1070041108" MODIFIED="1374057082609" TEXT="Props. of ionic compounds">
+<node CREATED="1374057086921" ID="ID_1799329766" MODIFIED="1374149339045">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      High melting &amp; boiling points - non-volatile:
+    </p>
+    <p>
+      Large enery &amp; hence high temperature is required
+    </p>
+    <p>
+      &#160;to break down the attractive forces between ions
+    </p>
+    <p>
+      &#160;in lattice structure.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1374058764013" ID="ID_198898314" MODIFIED="1374149155437">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Soluble in Water:
+    </p>
+    <p>
+      Water contains dipole molecules, hence able to break down
+    </p>
+    <p>
+      &#160;the crystalline lattice by attracting ions in lattice: resulting in dissolution
+    </p>
+    <p>
+      Water is a ''polar solvent''
+    </p>
+    <p>
+      Fig. 4.4
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1374058794277" ID="ID_380951968" MODIFIED="1374149272763">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Conduct electricity when molten or in aqueous solution:
+    </p>
+    <p>
+      Substance must possess ''charged particles'' which can move
+    </p>
+    <p>
+      &#160;to conduct electricity.
+    </p>
+    <p>
+      ''Electrolyte'': aqueous solution or molten substance which can
+    </p>
+    <p>
+      &#160;conduct electricity.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1374058814885" ID="ID_966517870" MODIFIED="1374149136278">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ionic crystals shatter easily, because layers of ions
+    </p>
+    <p>
+      &#160;in crystalline structure can slip, which means
+    </p>
+    <p>
+      &#160;repulsion of like charges.
+    </p>
+    <p>
+      Fig 4.5
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1374149358874" ID="ID_1546381339" MODIFIED="1374149370623" TEXT="When ionic bond is likely to occur?">
+<node CREATED="1374149371825" ID="ID_1445723813" MODIFIED="1374149416875" TEXT="&apos;&apos;Ionization Energy&apos;&apos;: energy required to remove the outer shell electrons is less"/>
+<node CREATED="1374149417474" ID="ID_1161198950" MODIFIED="1374149503693" TEXT="&apos;&apos;Metals&apos;&apos; have low ionization energy &amp; have 3e or less in outer shell"/>
+<node CREATED="1374149511019" ID="ID_1873419046" MODIFIED="1374149527867" TEXT="Compound containing a metal tend to be ionic"/>
+<node CREATED="1374149545492" ID="ID_1796572870" MODIFIED="1374149642975" TEXT="Hydrogen&apos;s ionization energy is high since 1e is attracted by heavy nucleus"/>
+<node CREATED="1374149602539" ID="ID_1072941563" MODIFIED="1374149625767" TEXT="Hydrogen is non-metal &amp; most of its compounds are non-ionic"/>
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_25" MODIFIED="1347382510988" TEXT="4.3 Covalent bonding:52">
+<node CREATED="1374152680024" ID="ID_939988794" MODIFIED="1374152726908" TEXT="Non-metal atoms combine to share electrons to achieve stable electronic config."/>
+<node CREATED="1374152731161" ID="ID_763528636" MODIFIED="1374152775135" TEXT="Represented as: Cl-Cl"/>
+<node CREATED="1374152784915" ID="ID_1719812911" MODIFIED="1374152890391" TEXT="&apos;&apos;Valency of atom&apos;&apos;: No. of e it has to give away, accept or share to obtain stable config."/>
+<node CREATED="1374152934881" ID="ID_1322747330" MODIFIED="1374152939942" TEXT="Multiple Bonds">
+<node CREATED="1374152941273" ID="ID_527920926" MODIFIED="1374152990363" TEXT="&apos;&apos;Double bond&apos;&apos;: 2 pairs of shared electrons. E.g.,: O=O"/>
+<node CREATED="1374152991017" ID="ID_490287088" MODIFIED="1374153060996" TEXT="&apos;&apos;Triple Bond&apos;&apos;: 3 pairs of shared electrons. E.g., Ethyne, H-C&lt;triple&gt;C-H"/>
+</node>
+<node CREATED="1374153114724" ID="ID_1065650796" MODIFIED="1374153125832" TEXT="Props. of covalent compounds">
+<node CREATED="1374156696984" ID="ID_819685607" MODIFIED="1374156925852">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Low melting &amp; boiling points - volatile
+    </p>
+    <p>
+      &#160;Often liquids or gases at room temperature: O_2, H_2O, CO_2
+    </p>
+    <p>
+      &#160;''van der Waals' force: inter-molecular, are relatively weak
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1374156927428" ID="ID_235393492" MODIFIED="1374157030658">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Low solubility in water:
+    </p>
+    <p>
+      &#160;Tend to dissolve readily in non-polar organic solvents.
+    </p>
+    <p>
+      &#160;such as benzene which also contain covalent molecules
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1374156942964" ID="ID_326983272" MODIFIED="1374157049004">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Do not conduct electricity:
+    </p>
+    <p>
+      &#160;'coz. they do not contain ions
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1347382439772" ID="ID_3_26" MODIFIED="1347382510988" TEXT="4.4 Coordinate bonding:56"/>
 <node CREATED="1347382439772" ID="ID_27" MODIFIED="1347382510988" TEXT="4.5 Ionic and covalent compounds - two extremes:57"/>
 <node CREATED="1347382439772" ID="ID_3_28" MODIFIED="1347382510988" TEXT="4.6 Resonance structures:60"/>
-<node CREATED="1370525999281" ID="ID_967477413" MODIFIED="1373119403484" TEXT="3. Inside the Atom"/>
 </node>
-<node CREATED="1347382439772" FOLDED="true" ID="ID_3_29" MODIFIED="1373118746968" POSITION="left" TEXT="5 More about Bonding:63">
+<node CREATED="1347382439772" FOLDED="true" ID="ID_3_29" MODIFIED="1373959872769" POSITION="left" TEXT="5 More about Bonding:63">
 <node CREATED="1347382439772" ID="ID_3_30" MODIFIED="1347382510988" TEXT="5.1 Exceptions to the octet rule:63"/>
 <node CREATED="1347382439772" ID="ID_3_31" MODIFIED="1347382510988" TEXT="5.2 Shapes of molecules:65"/>
 <node CREATED="1347382439772" ID="ID_3_32" MODIFIED="1347382510988" TEXT="5.3 Shapes of molecules with multiple bonds:69"/>
@@ -306,7 +518,7 @@
 <node CREATED="1347382439772" ID="ID_3_35" MODIFIED="1347382510988" TEXT="5.6 Giant molecules:73"/>
 <node CREATED="1347382439772" ID="ID_3_36" MODIFIED="1347382510988" TEXT="5.7 Forces between covalent molecules:75"/>
 </node>
-<node CREATED="1347382439772" FOLDED="true" ID="ID_3_37" MODIFIED="1373118748312" POSITION="left" TEXT="6 Reactions of Ions in Solution:82">
+<node CREATED="1347382439772" FOLDED="true" ID="ID_3_37" MODIFIED="1373959874561" POSITION="left" TEXT="6 Reactions of Ions in Solution:82">
 <node CREATED="1347382439772" ID="ID_3_38" MODIFIED="1347382510988" TEXT="6.1 Dissolution of salts in water:82"/>
 <node CREATED="1347382439772" ID="ID_3_39" MODIFIED="1347382510988" TEXT="6.2 Ionic equations:83"/>
 <node CREATED="1347382439772" ID="ID_40" MODIFIED="1347382510988" TEXT="6.3 Producing ions in water by chemical reaction:86"/>
@@ -316,7 +528,7 @@
 <node CREATED="1347382439772" ID="ID_3_44" MODIFIED="1347382510988" TEXT="6.7 Reactions of the hydroxide ion:95"/>
 <node CREATED="1347382439772" ID="ID_45" MODIFIED="1347382510988" TEXT="6.8 Use of reactions in the identification of ions in solution:97"/>
 </node>
-<node CREATED="1347382439772" FOLDED="true" ID="ID_3_46" MODIFIED="1373118749640" POSITION="left" TEXT="7 Oxidation and Reduction:100">
+<node CREATED="1347382439772" FOLDED="true" ID="ID_3_46" MODIFIED="1374052377242" POSITION="left" TEXT="7 Oxidation and Reduction:100">
 <node CREATED="1347382439772" ID="ID_3_47" MODIFIED="1347382510988" TEXT="7.1 Redox reactions:100"/>
 <node CREATED="1347382439772" ID="ID_3_48" MODIFIED="1347382510988" TEXT="7.2 Oxidation numbers:102"/>
 <node CREATED="1347382439772" ID="ID_3_49" MODIFIED="1347382510988" TEXT="7.3 Oxidizing and reducing agents:104"/>
@@ -326,7 +538,7 @@
 <node CREATED="1347382439772" ID="ID_3_53" MODIFIED="1347382510988" TEXT="7.7 Corrosion of iron:114"/>
 <node CREATED="1347382439772" ID="ID_3_54" MODIFIED="1347382510988" TEXT="7.8 Redox reactions in nature:115"/>
 </node>
-<node CREATED="1347382439772" FOLDED="true" ID="ID_3_55" MODIFIED="1373118752156" POSITION="left" TEXT="8 The Mole:118">
+<node CREATED="1347382439772" FOLDED="true" ID="ID_3_55" MODIFIED="1373959878076" POSITION="left" TEXT="8 The Mole:118">
 <node CREATED="1347382439772" ID="ID_3_56" MODIFIED="1347382510988" TEXT="8.1 Molecular mass:118"/>
 <node CREATED="1347382439772" ID="ID_3_57" MODIFIED="1347382510988" TEXT="8.2 Moles:119"/>
 <node CREATED="1347382439772" ID="ID_3_58" MODIFIED="1347382510988" TEXT="8.3 Percentage composition by mass:124"/>
@@ -336,14 +548,14 @@
 <node CREATED="1347382439772" ID="ID_3_62" MODIFIED="1347382510988" TEXT="8.7 Percentage yield:130"/>
 <node CREATED="1347382439772" ID="ID_3_63" MODIFIED="1347382510988" TEXT="8.8 Limiting reagents:131"/>
 </node>
-<node CREATED="1347382439772" FOLDED="true" ID="ID_3_64" MODIFIED="1373118753250" POSITION="left" TEXT="9 Calculating Concentrations:135">
+<node CREATED="1347382439772" FOLDED="true" ID="ID_3_64" MODIFIED="1373959880356" POSITION="left" TEXT="9 Calculating Concentrations:135">
 <node CREATED="1347382439772" ID="ID_3_65" MODIFIED="1347382510988" TEXT="9.1 Concentration of solutions:135"/>
 <node CREATED="1347382439772" ID="ID_3_66" MODIFIED="1347382510988" TEXT="9.2 Standard solutions:138"/>
 <node CREATED="1347382439772" ID="ID_3_67" MODIFIED="1347382510988" TEXT="9.3 Volumetric analysis:140"/>
 <node CREATED="1347382439772" ID="ID_3_68" MODIFIED="1347382510988" TEXT="9.4 Other units of concentration:146"/>
 <node CREATED="1347382439772" ID="ID_3_69" MODIFIED="1347382510988" TEXT="9.5 pH scale:150"/>
 </node>
-<node CREATED="1347382439772" FOLDED="true" ID="ID_3_70" MODIFIED="1373118754015" POSITION="left" TEXT="10 Gases, Liquids and Solids:153">
+<node CREATED="1347382439772" FOLDED="true" ID="ID_3_70" MODIFIED="1374052378391" POSITION="left" TEXT="10 Gases, Liquids and Solids:153">
 <node CREATED="1347382439772" ID="ID_3_71" MODIFIED="1347382510988" TEXT="10.1 Heat and temperature:153"/>
 <node CREATED="1347382439772" ID="ID_3_72" MODIFIED="1347382510988" TEXT="10.2 Changes in the state of matter:153"/>
 <node CREATED="1347382439772" ID="ID_3_73" MODIFIED="1347382510988" TEXT="10.3 Gas laws:157"/>
@@ -372,5 +584,85 @@
 <node CREATED="1347382439772" ID="ID_3_94" MODIFIED="1347382510988" TEXT="12.7 Elements of the first transition series:204"/>
 <node CREATED="1347382439772" ID="ID_95" MODIFIED="1347382510988" TEXT="12.8 Variation of properties of elements within groups and periods:210"/>
 </node>
+<node CREATED="1374051992296" ID="ID_1304160030" MODIFIED="1374053931731" POSITION="right" TEXT="Missing Info:">
+<node CREATED="1374052300549" FOLDED="true" ID="ID_1528812033" MODIFIED="1374152593929" TEXT="Ch1:">
+<node CREATED="1374054201226" ID="ID_1789699772" MODIFIED="1374054204308" TEXT="Bxs:"/>
+<node CREATED="1374054205026" ID="ID_151481746" MODIFIED="1374054207499" TEXT="Egs: "/>
+<node CREATED="1374054208170" ID="ID_819526844" MODIFIED="1374054209991" TEXT="Exs:"/>
+<node CREATED="1374054215874" ID="ID_1581385251" MODIFIED="1374054218604" TEXT="Tbs: "/>
+</node>
+<node CREATED="1374052290653" FOLDED="true" ID="ID_1086899865" MODIFIED="1374152597647" TEXT="Ch2:">
+<node CREATED="1374054201226" ID="ID_1961245982" MODIFIED="1374054204308" TEXT="Bxs:"/>
+<node CREATED="1374054205026" ID="ID_593550835" MODIFIED="1374054207499" TEXT="Egs: "/>
+<node CREATED="1374054208170" ID="ID_1070177192" MODIFIED="1374054209991" TEXT="Exs:"/>
+<node CREATED="1374054215874" ID="ID_798712060" MODIFIED="1374054218604" TEXT="Tbs: "/>
+</node>
+<node CREATED="1374052197453" ID="ID_1222907349" MODIFIED="1374152607444" TEXT="Ch3:">
+<node CREATED="1374054201226" ID="ID_235410688" MODIFIED="1374054204308" TEXT="Bxs:"/>
+<node CREATED="1374054205026" ID="ID_230065034" MODIFIED="1374054207499" TEXT="Egs: "/>
+<node CREATED="1374054208170" ID="ID_583667127" MODIFIED="1374054209991" TEXT="Exs:"/>
+<node CREATED="1374054215874" ID="ID_1612402398" MODIFIED="1374054218604" TEXT="Tbs: "/>
+</node>
+<node CREATED="1374052167309" ID="ID_1287036537" MODIFIED="1374054589724" TEXT="Ch4:">
+<node CREATED="1374054001790" ID="ID_271082803" MODIFIED="1374054107699" TEXT="Bxs: 1, 6"/>
+<node CREATED="1374054112840" ID="ID_296288193" MODIFIED="1374054538915" TEXT="Egs: None"/>
+<node CREATED="1374053988294" ID="ID_1719159607" MODIFIED="1374054000312" TEXT="Exs: a, f, h, i"/>
+<node CREATED="1374053979438" ID="ID_1245070842" MODIFIED="1374054110060" TEXT="Tbs: 1"/>
+</node>
+<node CREATED="1374052274413" FOLDED="true" ID="ID_343427968" MODIFIED="1374152624721" TEXT="Ch5:">
+<node CREATED="1374054201226" ID="ID_316114165" MODIFIED="1374054204308" TEXT="Bxs:"/>
+<node CREATED="1374054205026" ID="ID_673786968" MODIFIED="1374054207499" TEXT="Egs: "/>
+<node CREATED="1374054208170" ID="ID_1496624019" MODIFIED="1374054209991" TEXT="Exs:"/>
+<node CREATED="1374054215874" ID="ID_100600901" MODIFIED="1374054218604" TEXT="Tbs: "/>
+</node>
+<node CREATED="1374052278509" FOLDED="true" ID="ID_127639693" MODIFIED="1374152633265" TEXT="Ch6:">
+<node CREATED="1374054201226" ID="ID_1192753806" MODIFIED="1374054204308" TEXT="Bxs:"/>
+<node CREATED="1374054205026" ID="ID_483262566" MODIFIED="1374054207499" TEXT="Egs: "/>
+<node CREATED="1374054208170" ID="ID_1991070605" MODIFIED="1374054209991" TEXT="Exs:"/>
+<node CREATED="1374054215874" ID="ID_1148018649" MODIFIED="1374054218604" TEXT="Tbs: "/>
+</node>
+<node CREATED="1374053107959" FOLDED="true" ID="ID_1560230035" MODIFIED="1374152639921" TEXT="Ch7:">
+<node CREATED="1374054201226" ID="ID_1125756961" MODIFIED="1374054204308" TEXT="Bxs:"/>
+<node CREATED="1374054205026" ID="ID_104718559" MODIFIED="1374054207499" TEXT="Egs: "/>
+<node CREATED="1374054208170" ID="ID_1550585065" MODIFIED="1374054209991" TEXT="Exs:"/>
+<node CREATED="1374054215874" ID="ID_1649377439" MODIFIED="1374054218604" TEXT="Tbs: "/>
+</node>
+<node CREATED="1374053111623" FOLDED="true" ID="ID_1559032644" MODIFIED="1374152645376" TEXT="Ch8:">
+<node CREATED="1374054201226" ID="ID_270736392" MODIFIED="1374054204308" TEXT="Bxs:"/>
+<node CREATED="1374054205026" ID="ID_811869499" MODIFIED="1374054207499" TEXT="Egs: "/>
+<node CREATED="1374054208170" ID="ID_1820893676" MODIFIED="1374054209991" TEXT="Exs:"/>
+<node CREATED="1374054215874" ID="ID_786064130" MODIFIED="1374054218604" TEXT="Tbs: "/>
+</node>
+<node CREATED="1374053114127" FOLDED="true" ID="ID_969061223" MODIFIED="1374152650600" TEXT="Ch9:">
+<node CREATED="1374054201226" ID="ID_999734755" MODIFIED="1374054204308" TEXT="Bxs:"/>
+<node CREATED="1374054205026" ID="ID_1339692703" MODIFIED="1374054207499" TEXT="Egs: "/>
+<node CREATED="1374054208170" ID="ID_572721263" MODIFIED="1374054209991" TEXT="Exs:"/>
+<node CREATED="1374054215874" ID="ID_1754722387" MODIFIED="1374054218604" TEXT="Tbs: "/>
+</node>
+<node CREATED="1374053116703" FOLDED="true" ID="ID_407413499" MODIFIED="1374152655672" TEXT="Ch10:">
+<node CREATED="1374054201226" ID="ID_1030986147" MODIFIED="1374054204308" TEXT="Bxs:"/>
+<node CREATED="1374054205026" ID="ID_1404403281" MODIFIED="1374054207499" TEXT="Egs: "/>
+<node CREATED="1374054208170" ID="ID_127675862" MODIFIED="1374054209991" TEXT="Exs:"/>
+<node CREATED="1374054215874" ID="ID_1837193100" MODIFIED="1374054218604" TEXT="Tbs: "/>
+</node>
+<node CREATED="1374151036921" ID="ID_1778062203" MODIFIED="1374151072417" TEXT="DYKs: All except Ch.6"/>
+<node CREATED="1374151080545" ID="ID_1836682143" MODIFIED="1374151087034" TEXT="Figs: "/>
+</node>
+<node CREATED="1374053359465" ID="ID_939010862" MODIFIED="1374053402267" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pages to snap:
+    </p>
+    <p>
+      &#160;&#160;47,
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1374054377301" ID="ID_1551433993" MODIFIED="1374054392412" POSITION="right" TEXT="Errata: Eg: 4.1: Magnesium Fluoride"/>
 </node>
 </map>

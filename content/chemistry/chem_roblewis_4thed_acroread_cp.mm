@@ -465,8 +465,7 @@
       &#160;''van der Waals' force: inter-molecular, are relatively weak
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1374156927428" ID="ID_235393492" MODIFIED="1374157030658">
 <richcontent TYPE="NODE"><html>
@@ -484,8 +483,7 @@
       &#160;such as benzene which also contain covalent molecules
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1374156942964" ID="ID_326983272" MODIFIED="1374157049004">
 <richcontent TYPE="NODE"><html>
@@ -500,12 +498,27 @@
       &#160;'coz. they do not contain ions
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_26" MODIFIED="1374223552639">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4.4 Coordinate (or dative)
+    </p>
+    <p>
+      bonding:56
+    </p>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1374223413949" ID="ID_1895928413" MODIFIED="1374223506736" TEXT="When an atom provides both the shared e-s in a covalent bond"/>
 </node>
-</node>
-</node>
-<node CREATED="1347382439772" ID="ID_3_26" MODIFIED="1347382510988" TEXT="4.4 Coordinate bonding:56"/>
 <node CREATED="1347382439772" ID="ID_27" MODIFIED="1347382510988" TEXT="4.5 Ionic and covalent compounds - two extremes:57"/>
 <node CREATED="1347382439772" ID="ID_3_28" MODIFIED="1347382510988" TEXT="4.6 Resonance structures:60"/>
 </node>

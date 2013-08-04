@@ -1,0 +1,93 @@
+Ch:9
+MECHANICAL PROPERTIES OF SOLIDS
+9.1 Introduction 231
+9.2 Elastic behaviour of solids 232
+9.3 Stress and strain 232
+9.4 Hooke's law 234
+9.5 Stress-strain curve 234
+9.6 Elastic moduli 235
+9.7 Applications of elastic behaviour of materials 240
+Ch:10
+MECHANICAL PROPERTIES OF FLUIDS
+10.1 Introduction 246
+10.2 Pressure 246
+10.3 Streamline flow 253
+10.4 Bernoulli's principle 254
+10.5 Viscosity 258
+10.6 Reynolds number 260
+10.7 Surface tension 261
+Ch:11
+THERMAL PROPERTIES OF MATTER
+11.1 Introduction 274
+11.2 Temperature and heat 274
+11.3 Measurement of temperature 275
+11.4 Ideal-gas equation and absolute temperature 275
+11.5 Thermal expansion 276
+11.6 Specific heat capacity 280
+11.7 Calorimetry 281
+11.8 Change of state 282
+11.9 Heat transfer 286
+11.10 Newton's law of cooling 290
+Ch:12
+THERMODYNAMICS
+12.1 Introduction 298
+12.2 Thermal equilibrium 299
+not to be republished
+C K
+C K
+xii
+12.3 Zeroth law of thermodynamics 300
+12.4 Heat, internal energy and work 300
+12.5 First law of thermodynamics 302
+12.6 Specific heat capacity 303
+12.7 Thermodynamic state variables and equation of 
+state 304
+12.8 Thermodynamic processes 305
+12.9 Heat engines 308
+12.10 Refrigerators and heat pumps 308
+12.11 Second law of thermodynamics 309
+12.12 Reversible and irreversible processes 310
+12.13 Carnot engine 311
+Ch:13
+KINETIC THEORY
+13.1 Introduction 318
+13.2 Molecular nature of matter 318
+13.3 Behaviour of gases 320
+13.4 Kinetic theory of an ideal gas 323
+13.5 Law of equipartition of energy 327
+13.6 Specific heat capacity 328
+13.7 Mean free path 330
+Ch:14
+OSCILLATIONS
+14.1 Introduction 336
+14.2 Periodic and oscilatory motions 337
+14.3 Simple harmonic motion 339
+14.4 Simple harmonic motion and uniform circular 
+motion 341
+14.5 Velocity and acceleration in simple harmonic 
+motion 343
+14.6 Force law for simple harmonic motion 344
+14.7 Energy in simple harmonic motion 345
+14.8 Some systems executing Simple Harmonic 
+Motion 347
+14.9 Damped simple harmonic motion 350
+14.10 Forced oscillations and resonance 352
+Ch:15
+WAVES
+15.1 Introduction 363
+15.2 Transverse and longitudinal waves 365
+15.3 Displacement relation in a progressive wave 366
+15.4 The speed of a travelling wave 369
+15.5 The principle of superposition of waves 372
+15.6 Reflection of waves 374
+not to be republished
+C K
+C K
+xiii
+15.7 Beats 378
+15.8 Doppler effect 380
+ANSWERS 391
+BIBLIOGRAPHY 401
+INDEX 403
+SUPPLEMENTARY MATERIAL 408
+

@@ -7,7 +7,7 @@ Contents
 
 
 
-  Periodic Table	                                 v        4.5	 Ionic and covalent compounds - two
+  Periodic Table	                                 v        4.5	 Ionic and covalent compounds – two
   Preface	                                       xi             extremes	                                    57
                                                            4.6	 Resonance structures	                        60
   To the Student: How to Use this Book	         xii
@@ -54,7 +54,7 @@ Contents
 
 
 
-8	 The Mole	                                          118        12.6	 Group 18 elements - the noble
+8	 The Mole	                                          118        12.6	 Group 18 elements – the noble
                                                                        gases: He, Ne, Ar, Kr, Xe, Rn	             203
         8.1	   Molecular mass	                        118
                                                                  12.7	 Elements of the first transition series	   204
@@ -101,21 +101,21 @@ Contents
        11.7	 Colloids	                                189              pressure and temperature upon
              Revision questions	                      190              equilibria	                                272
                                                                  15.5	 Production of ammonia by the
-12	 Chemical Families	                                192              Haber-Bosch process	                       281
+12	 Chemical Families	                                192              Haber–Bosch process	                       281
        12.1	 Periodic Table	                           192       15.6	 Heterogeneous equilibria	                  282
-       12.2	 Group 1 elements - the alkali metals: Li,                 Revision questions	                        283
+       12.2	 Group 1 elements – the alkali metals: Li,                 Revision questions	                        283
              Na, K, Rb, Cs, Fr	                        193
-       12.3	 Group 2 elements - the alkaline earth
-                                                             16	 Acid-Base Equilibria	                            285
+       12.3	 Group 2 elements – the alkaline earth
+                                                             16	 Acid–Base Equilibria	                            285
              metals: Be, Mg, Ca, Sr, Ba, Ra	           196       16.1	   Ionic equilibria in water	               285
        12.4	 Group 14 elements: C, Si, Ge, Sn, Pb	     198       16.2	   Acids and bases in aqueous solution	     289
-       12.5	 Group 17 elements - the halogens: F, Cl,            16.3	   Hydrolysis of salts	                     295
+       12.5	 Group 17 elements – the halogens: F, Cl,            16.3	   Hydrolysis of salts	                     295
              Br, I, At	                                202       16.4	    Buffer solutions	                       297
-                                                                 16.5	   Acid-base indicators	                    301
+                                                                 16.5	   Acid–base indicators	                    301
                                                                                                   Contents    ix
 
 
-    16.6	 Variation of pH during an acid-base              Special Topics
+    16.6	 Variation of pH during an acid–base              Special Topics
           titration	                              303
     16.7	 Buffering action of carbon dioxide in         21	 Nuclear and Radiochemistry	                      399
           water	                                  305       21.1	   Radioactivity	                           399
@@ -162,7 +162,7 @@ Contents
     20.7	   Infrared spectroscopy	                379               issues relating to fossil fuels	         438
     20.8	   Nuclear magnetic resonance                              Revision questions	                      439
             spectroscopy	                         386
-    20.9	   Beer-Lambert law	                     392      Electronic Structures	                            440
+    20.9	   Beer–Lambert law	                     392      Electronic Structures	                            440
    20.10	   Photosynthesis	                       395      Answers to Exercises and Revision
             Revision questions	                   396      Questions	                                        442
                                                            Glossary	                                         464

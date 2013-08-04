@@ -69,13 +69,13 @@ def op_lt_col_txt(idx) :
     initNum = initNumRe.match(cols[idx].strip())
     if curr_lt_topic != '' :
         if not initNum :
-			print curr_lt_topic + ' ' + cols[idx].strip() + ':' + cols[idx+1].strip()
+			print curr_lt_topic + ' ' + ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
         else :
 			print curr_lt_topic
-			print cols[idx].strip() + ':' + cols[idx+1].strip()
+			print ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
        	curr_lt_topic = ''
     else :
-        print cols[idx].strip() + ':' + cols[idx+1].strip()
+        print ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
 
 def op_lt_col_mm(idx) :
     global curr_lt_topic, cols, node_id
@@ -88,9 +88,9 @@ def op_lt_col_mm(idx) :
             dep = get_depth(curr_lt_topic)
             op_end_tags(dep)
             if debug:
-                nodeTxt = curr_lt_topic + ' ' + cols[idx].strip() + ':' + cols[idx+1].strip() + ':' + str(dep)
+                nodeTxt = curr_lt_topic + ' ' + ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip() + ':' + str(dep)
             else:
-                nodeTxt = curr_lt_topic + ' ' + cols[idx].strip() + ':' + cols[idx+1].strip()
+                nodeTxt = curr_lt_topic + ' ' + ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
             print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
         else :
@@ -106,9 +106,9 @@ def op_lt_col_mm(idx) :
             dep = get_depth(section_num)
             op_end_tags(dep)
             if debug:
-                nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip() + ':' + str(dep)
+                nodeTxt = ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip() + ':' + str(dep)
             else :
-                nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip()
+                nodeTxt = ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
             print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
        	curr_lt_topic = ''
@@ -119,9 +119,9 @@ def op_lt_col_mm(idx) :
             dep = get_depth(cols[idx].strip())
             op_end_tags(dep)
             if debug:
-                nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip() + ':' + str(dep)
+                nodeTxt = ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip() + ':' + str(dep)
             else:
-                nodeTxt = cols[idx].strip() + ':' + cols[idx+1].strip()
+                nodeTxt = ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
             print '<node CREATED="1347382439772" ID="ID_3_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
         else:
@@ -150,9 +150,9 @@ def append_rt_col_lines(idx) :
 def add_curr_lt_topic(idx) :
     global curr_lt_topic, cols
     if curr_lt_topic != '':
-        curr_lt_topic += ' ' + cols[idx].strip()
+        curr_lt_topic += ' ' + ' '.join(cols[idx].strip().split())
     else :
-        curr_lt_topic = cols[idx].strip()
+        curr_lt_topic = ' '.join(cols[idx].strip().split())
 
 def add_curr_rt_topic(idx) :
     global curr_rt_topic, cols
@@ -183,9 +183,26 @@ def op_rt_col_lines_mm() :
             node_id = node_id + 1
     rt_col_lines = []
 
+# Function to determine if the i/p line is to be discarded
+def chk_for_discard(line):
+  retval = False
+  # Added this check for NCERT books which have watermark
+  n_line = ' '.join(line.split())
+  # TODO: We need more robust logic to deduct watermarks spread across lines
+  # Currenly num 10 below is magic !! 
+  if len(n_line) <= 10:
+    retval = True
+  else:
+    discard = re.compile('^\s*$|\s+(Contents|CONTENTS|PROOF|Proof)\s*')
+    line_to_discard = discard.search(line)
+    if line_to_discard is not None:
+	  retval = True
+  return retval
+
 # END: Functions
 
 # START: Main
+print >>sys.stderr,"...Num. of i/p args: "+str(len(sys.argv))
 if (len(sys.argv) != 4):
   print >>sys.stderr,"Usage: "+__file__+" <pdftotext o/p txt file> <mm or txt> <root node text"
   sys.exit(-1)
@@ -202,9 +219,7 @@ if opTyp == 'mm' :
 
 for line in ipF :
   # Assuming 52-58 as column range for left column page number occurrence
-  discard = re.compile('^\s*$|\s+(Contents|CONTENTS|PROOF|Proof)\s*')
-  line_to_discard = discard.search(line)
-  if not line_to_discard:
+  if not chk_for_discard(line):
     # find might be faster - not sure
     pg = re.search('\s+Page\s+',line)
     if pg :
@@ -225,7 +240,7 @@ for line in ipF :
     # <lt col> <num> <rt col> <num>: 7, col[6] is empty string
     #p = re.compile('\s\s+([ixv]+|\d+)(\s+|$)')
     p = re.compile('\s+([ixv]+|\d+)(\s+|$)')
-    l_spcs = re.compile('\s+')
+    l_spcs = re.compile('^\s+')
     l_spcs_mo = l_spcs.match(line)
     cols = p.split(line)
     #print >>sys.stderr,"...len of cols:"+str(len(cols))+" line:"+line
@@ -251,8 +266,10 @@ for line in ipF :
             if l_spcs_mo and (l_spcs_mo.end() >= 60) :
                 append_rt_col_lines(0)
             else :
-                idx_num = line.find(cols[1])
-                if idx_num != -1 and idx_num < 60 :
+                # The magic number 20 is for beginning of left col text after spaces 
+                #idx_num = line.find(cols[1])
+                idx_num = line.find(cols[0])
+                if idx_num != -1 and idx_num < 25 :
                     #TODO: Add filtering of string before printing
                     if opTyp == 'mm' :
 	                    op_lt_col_mm(0)
@@ -260,6 +277,8 @@ for line in ipF :
 			            op_lt_col_txt(0)
                 else :
                     # Split cols[0] with more than 3 spaces & store left col & append right col
+					# Giving error for NCERT books ToCs. 'coz of page watermarks. 
+                    print >>sys.stderr,"......i/p line is:"+line
                     spc_idx = l_spcs_mo.end()
                     if curr_lt_topic != '' :
                     	curr_lt_topic += ' ' + cols[0][spc_idx:59].strip()

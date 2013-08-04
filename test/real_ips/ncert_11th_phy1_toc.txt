@@ -1,0 +1,315 @@
+CK
+
+
+
+
+                                       CONTENTS
+
+     FOREWORD                                                                iii
+     PREFACE                                                                  v
+     A NOTE FOR   THE TEACHER                                                 x
+
+     C HA P T E R            1
+
+
+
+
+                                                                                     d
+     PHYSICAL WORLD
+     1.1      What is physics ?                                               1
+
+
+
+
+                                                                                   e
+     1.2      Scope and excitement of physics                                 2
+     1.3      Physics, technology and society                                 5
+
+
+
+
+                                                                               h
+     1.4      Fundamental forces in nature                                    6
+
+
+
+
+                        T li                                                 s
+     1.5      Nature of physical laws                                        10
+
+
+
+
+                       R b
+     C HA P T E R            2
+     UNITS AND MEASUREMENTS
+
+
+
+
+                      E u
+     2.1      Introduction                                                   16
+     2.2      The international system of units                              16
+
+
+
+
+                     C p
+     2.3      Measurement of length                                          18
+     2.4      Measurement of mass                                            21
+
+
+
+
+                   N re
+     2.5      Measurement of time                                            22
+     2.6      Accuracy, precision of instruments and errors in measurement   22
+     2.7      Significant figures                                            27
+
+
+
+
+                © e
+     2.8      Dimensions of physical quantities                              31
+     2.9      Dimensional formulae and dimensional equations                 31
+     2.10     Dimensional analysis and its applications                      32
+
+
+
+
+                   b
+     C HA P T E R            3
+
+
+
+
+                to
+     MOTION   IN A   STRAIGHT LINE
+     3.1      Introduction                                                   39
+     3.2      Position, path length and displacement                         39
+
+
+
+
+              t
+     3.3      Average velocity and average speed                             42
+     3.4      Instantaneous velocity and speed                               43
+
+
+
+
+             o
+     3.5      Acceleration                                                   45
+     3.6      Kinematic equations for uniformly accelerated motion           47
+
+
+
+
+           n
+     3.7      Relative velocity                                              51
+
+     C HA P T E R            4
+     MOTION   IN A   PLANE
+     4.1      Introduction                                                   65
+     4.2      Scalars and vectors                                            65
+     4.3      Multiplication of vectors by real numbers                      67
+     4.4      Addition and subtraction of vectors - graphical method         67
+     4.5      Resolution of vectors                                          69
+
+
+
+
+                                                                                    CK
+CK
+
+
+
+
+                                                xii
+
+     4.6    Vector addition - analytical method                              71
+     4.7    Motion in a plane                                                72
+     4.8    Motion in a plane with constant acceleration                     75
+     4.9    Relative velocity in two dimensions                              76
+     4.10   Projectile motion                                                77
+     4.11   Uniform circular motion                                          79
+
+     C HA P T ER         5
+     LAWS OF MOTION
+
+
+
+
+                                                                                   d
+     5.1    Introduction                                                      89
+     5.2    Aristotle's fallacy                                               90
+
+
+
+
+                                                                                 e
+     5.3    The law of inertia                                                90
+     5.4    Newton's first law of motion                                      91
+
+
+
+
+                                                                             h
+     5.5    Newton's second law of motion                                     93
+     5.6
+
+
+
+                  T li                                                     s
+            Newton's third law of motion                                      96
+     5.7    Conservation of momentum                                          98
+     5.8    Equilibrium of a particle                                         99
+
+
+
+
+                 R b
+     5.9    Common forces in mechanics                                       100
+     5.10   Circular motion                                                  104
+
+
+
+
+                E u
+     5.11   Solving problems in mechanics                                    105
+
+
+
+
+               C p
+     C HA P T ER         6
+     WORK, ENERGY AND POWER
+
+
+
+
+             N re
+     6.1    Introduction                                                     114
+     6.2    Notions of work and kinetic energy : The work-energy theorem     116
+     6.3    Work                                                             116
+
+
+
+
+     6.4    Kinetic energy                                                   117
+     6.5    Work done by a variable force                                    118
+     6.6    The work-energy theorem for a variable force                     119
+
+
+
+
+             b
+     6.7    The concept of potential energy                                  120
+     6.8    The conservation of mechanical energy                            121
+
+
+
+
+          to
+     6.9    The potential energy of a spring                                 123
+     6.10   Various forms of energy : the law of conservation of energy      126
+     6.11   Power                                                            128
+     6.12   Collisions                                                       129
+
+
+
+
+       ot
+     C HA P T ER         7
+     SYSTEM OF PARTICLES AND ROTATIONAL MOTION
+
+
+
+
+     n
+     7.1    Introduction                                                     141
+     7.2    Centre of mass                                                   144
+     7.3    Motion of centre of mass                                         148
+     7.4    Linear momentum of a system of particles                         149
+     7.5    Vector product of two vectors                                    150
+     7.6    Angular velocity and its relation with linear velocity           152
+     7.7    Torque and angular momentum                                      154
+     7.8    Equilibrium of a rigid body                                      158
+     7.9    Moment of inertia                                                163
+     7.10   Theorems of perpendicular and parallel axes                      164
+
+
+
+
+                                                                                   CK
+CK
+
+
+
+
+                                               xiii
+
+     7.11   Kinematics of rotational motion about a fixed axis                 167
+     7.12   Dynamics of rotational motion about a fixed axis                   169
+     7.13   Angular momentum in case of rotations about a fixed axis           171
+     7.14   Rolling motion                                                     173
+
+     C H AP T ER         8
+     GRAVITATION
+     8.1    Introduction                                                       183
+     8.2    Kepler's laws                                                      184
+
+
+
+
+                                                                                       d
+     8.3    Universal law of gravitation                                       185
+     8.4    The gravitational constant                                         189
+
+
+
+
+                                                                                     e
+     8.5    Acceleration due to gravity of the earth                           189
+     8.6    Acceleration due to gravity below and above the surface of earth   190
+
+
+
+
+                                                                                 h
+     8.7    Gravitational potential energy                                     191
+     8.8
+
+
+
+                      T li                                                     s
+            Escape speed                                                       193
+     8.9    Earth satellite                                                    194
+     8.10   Energy of an orbiting satellite                                    195
+
+
+
+
+                     R b
+     8.11   Geostationary and polar satellites                                 196
+     8.12   Weightlessness                                                     197
+
+
+     APPENDICES
+
+     ANSWERS        E u
+                   C p
+                                                                               203
+
+                                                                               219
+
+
+
+
+                 N re
+                 b
+            t to
+         n o
+
+
+                                                                                      CK

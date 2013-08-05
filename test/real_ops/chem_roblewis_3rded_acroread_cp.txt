@@ -1,4 +1,5 @@
-Periodic Table inside front cover To the Student: How to Use this Book:xii
+Periodic Table inside front cover Preface:xi
+To the Student: How to Use this Book:xii
 Acknowledgements:xiii
 1 Numbers, Units and Measurement
 1.1 Very small and very big numbers:1
@@ -7,7 +8,7 @@ Acknowledgements:xiii
 1.4 Errors in experiments:6
 1.5 Reporting measurements:10
 Revision questions:14
-2 Elements, Compounds and
+2 Elements, Compounds and Reactions
 2.1 Matter and energy:15
 2.2 Physical and chemical changes:19
 2.3 Chemical formulae:20
@@ -26,13 +27,13 @@ Revision questions:45
 4.2 Ionic bonding:47
 4.3 Covalent bonding:52
 4.4 Coordinate bonding:56
-4.5 Ionic and covalent compounds – two extremes:57
+4.5 Ionic and covalent compounds - two extremes:57
 4.6 Resonance structures:60
 Revision questions:62
 5 More about Bonding
 5.1 Exceptions to the octet rule:63
 5.2 Shapes of molecules:65
-5.3 Shapes of molecules with multiple
+5.3 Shapes of molecules with multiple bonds:69
 5.4 Molecules with and without dipoles:71
 5.5 Metallic bonding:72
 5.6 Giant molecules:73
@@ -50,30 +51,31 @@ Revision questions:81
 Revision questions:98
 7 Oxidation and Reduction
 7.1 Redox reactions:100
-17.2 Oxidation numbers:102
-17.3 Oxidizing and reducing agents:104
-17.4 Writing and balancing redox equations:104
-17.5 Redox couples:107
-17.6 Activity series of metals:113
-17.7 Corrosion of iron:114
-17.8 Redox reactions in nature:115
-1 Revision questions:117
-18.1 Molecular mass:118
-18.2 Moles:119
-18.3 Percentage composition by mass:124
-18.4 Water of crystallization:127
-18.5 Calculating amounts from equations:127
-18.6 Calculating gas volumes:129
-18.7 Percentage yield:130
-18.8 Limiting reagents:131
-1 Revision questions:133
+7.2 Oxidation numbers:102
+7.3 Oxidizing and reducing agents:104
+7.4 Writing and balancing redox equations:104
+7.5 Redox couples:107
+7.6 Activity series of metals:113
+7.7 Corrosion of iron:114
+7.8 Redox reactions in nature:115
+Revision questions:117
+8 The Mole
+8.1 Molecular mass:118
+8.2 Moles:119
+8.3 Percentage composition by mass:124
+8.4 Water of crystallization:127
+8.5 Calculating amounts from equations:127
+8.6 Calculating gas volumes:129
+8.7 Percentage yield:130
+8.8 Limiting reagents:131
+Revision questions:133
 9 Calculating Concentrations
-19.1 Concentration of solutions:135
-19.2 Standard solutions:138
-19.3 Volumetric analysis:140
-19.4 Other units of concentration:146
-19.5 pH scale:150
-1 Revision questions:152
+9.1 Concentration of solutions:135
+9.2 Standard solutions:138
+9.3 Volumetric analysis:140
+9.4 Other units of concentration:146
+9.5 pH scale:150
+Revision questions:152
 10 Gases, Liquids and Solids
 10.1 Heat and temperature:153
 10.2 Changes in the state of matter:153
@@ -95,21 +97,20 @@ Revision questions:169
 Revision questions:192
 12 Chemical Families
 12.1 Periodic Table:193
-12.2 Group:1
-12.3 Group:2
-earth metals:197
-12.4 Group:14
-12.5 Group:17
-12.6 Group:18
-12.7 Elements of the first transition 12.8 Variation of properties of elements within groups and periods:210
+12.2 Group 1 elements - the alkali metals:194
+12.3 Group 2 elements - the alkaline earth metals:197
+12.4 Group 14 elements:199
+12.5 Group 17 elements - the halogens:203
+12.6 Group 18 elements - the noble gases:204
+12.7 Elements of the first transition series:205
+12.8 Variation of properties of elements within groups and periods:210
 Revision questions:214
-13 Energy Changes in Chemical
+13 Energy Changes in Chemical Reactions
 13.1 Conservation of energy:215
 13.2 Key points about enthalpy changes:218
 13.3 Determination of H in the laboratory:222
-13.4 Special kinds of standard enthalpy
+13.4 Special kinds of standard enthalpy change:225
 13.5 Standard enthalpy of formation:226
-CONTENTS:ix
 13.6 Standard enthalpy of combustion:230
 13.7 Nutrition:231
 13.8 Lattice enthalpy:233
@@ -130,16 +131,16 @@ Revision questions:263
 15.2 Equilibrium law and equilibrium constant:267
 15.3 Meaning of equilibrium constants:269
 15.4 Effects of changing concentration, pressure and temperature upon equilibria:272
-15.5 Production of ammonia by the Haber–Bosch process:281
+15.5 Production of ammonia by the Haber-Bosch process:281
 15.6 Heterogeneous equilibria:282
 Revision questions:283
-16 Acid–Base Equilibria
+16 Acid-Base Equilibria
 16.1 Ionic equilibria in water:285
 16.2 Acids and bases in aqueous solution:289
 16.3 Hydrolysis of salts:295
 16.4 Buffer solutions:297
-16.5 Acid–base indicators:301
-16.6 Variation of pH during an acid–base titration:303
+16.5 Acid-base indicators:301
+16.6 Variation of pH during an acid-base titration:303
 16.7 Buffering action of carbon dioxide in water:305
 Revision questions:306
 17 Organic Chemistry: Hydrocarbons
@@ -148,7 +149,7 @@ Revision questions:306
 17.3 Alkynes:321
 17.4 Aromatic hydrocarbons:322
 Revision questions:328
-18 Common Classes of Organic
+18 Common Classes of Organic Compounds
 18.1 Halogenoalkanes:330
 18.2 Alcohols:330
 18.3 Carbonyl compounds:334
@@ -176,7 +177,7 @@ Revision questions:364
 20.6 Absorption spectra and colour:377
 20.7 Infrared spectroscopy:379
 20.8 Nuclear magnetic resonance spectroscopy:386
-20.9 Beer–Lambert law:392
+20.9 Beer-Lambert law:392
 20.10 Photosynthesis:395
 Revision questions:396
 21 Nuclear and Radiochemistry
@@ -197,7 +198,7 @@ Revision questions:421
 23.2 The scope of forensic chemistry:422
 23.3 Variation of the concentration of a poison with time:424
 23.4 Calculations using first order kinetics:424
-23.5 Zeroth-order kinetics of ethanol
+23.5 Zeroth-order kinetics of ethanol decay:425
 23.6 Drinking and driving:426
 23.7 Analysis of drugs in hair:428
 Revision questions:429
@@ -205,5 +206,3 @@ Electronic Structures:430
 Answers to Exercises and Revision Questions:432
 Glossary:453
 Valencies of Common Ions:464
-elements – the alkali elements – the alkaline elements:199
-elements – the halogens:203

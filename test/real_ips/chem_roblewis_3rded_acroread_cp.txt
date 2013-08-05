@@ -63,14 +63,14 @@ Revision questions 98
 7.1 Redox reactions 100
 Contents
 viii CONTENTS
-17.2 Oxidation numbers 102
-17.3 Oxidizing and reducing agents 104
-17.4 Writing and balancing redox
+7.2 Oxidation numbers 102
+7.3 Oxidizing and reducing agents 104
+7.4 Writing and balancing redox
 equations 104
-17.5 Redox couples 107
-17.6 Activity series of metals 113
-17.7 Corrosion of iron 114
-17.8 Redox reactions in nature 115
+7.5 Redox couples 107
+7.6 Activity series of metals 113
+7.7 Corrosion of iron 114
+7.8 Redox reactions in nature 115
 Revision questions 117
 8 The Mole
 8.1 Molecular mass 118

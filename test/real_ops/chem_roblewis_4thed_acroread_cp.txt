@@ -1,21 +1,22 @@
 Periodic Table:v
+Preface:xi
 To the Student: How to Use this Book:xii
 Acknowledgements:xiii
 Useful Physical Constants; General Data; Conversion Factors; Using the NIST Website:xiv
-1 Numbers, Units and Measurement:1
+1 Numbers, Units and Measurement
 1.1 Very small and very big numbers:1
 1.2 Logarithms:2
 1.3 Units:3
 1.4 Errors in experiments:6
 1.5 Reporting measurements:10
 Revision questions:14
-2 Elements, Compounds and Reactions:15
+2 Elements, Compounds and Reactions
 2.1 Matter and energy:15
 2.2 Physical and chemical changes:19
 2.3 Chemical formulae:20
 2.4 Writing and balancing equations:24
 Revision questions:28
-3 Inside the Atom:29
+3 Inside the Atom
 3.1 Atomic structure:29
 3.2 Isotopes:32
 3.3 Mass spectrometer:35
@@ -23,7 +24,7 @@ Revision questions:28
 3.5 Evidence for the existence of energy levels in atoms:40
 3.6 More advanced ideas about electronic structure:41
 Revision questions:45
-4 Bonding Between Atoms:46
+4 Bonding Between Atoms
 4.1 Why atoms combine:46
 4.2 Ionic bonding:47
 4.3 Covalent bonding:52
@@ -31,7 +32,7 @@ Revision questions:45
 4.5 Ionic and covalent compounds - two extremes:57
 4.6 Resonance structures:60
 Revision questions:62
-5 More about Bonding:63
+5 More about Bonding
 5.1 Exceptions to the octet rule:63
 5.2 Shapes of molecules:65
 5.3 Shapes of molecules with multiple bonds:69
@@ -40,7 +41,7 @@ Revision questions:62
 5.6 Giant molecules:73
 5.7 Forces between covalent molecules:75
 Revision questions:81
-6 Reactions of Ions in Solution:82
+6 Reactions of Ions in Solution
 6.1 Dissolution of salts in water:82
 6.2 Ionic equations:83
 6.3 Producing ions in water by chemical reaction:86
@@ -50,7 +51,7 @@ Revision questions:81
 6.7 Reactions of the hydroxide ion:95
 6.8 Use of reactions in the identification of ions in solution:97
 Revision questions:98
-7 Oxidation and Reduction:100
+7 Oxidation and Reduction
 7.1 Redox reactions:100
 7.2 Oxidation numbers:102
 7.3 Oxidizing and reducing agents:104
@@ -60,7 +61,7 @@ Revision questions:98
 7.7 Corrosion of iron:114
 7.8 Redox reactions in nature:115
 Revision questions:117
-8 The Mole:118
+8 The Mole
 8.1 Molecular mass:118
 8.2 Moles:119
 8.3 Percentage composition by mass:124
@@ -70,14 +71,14 @@ Revision questions:117
 8.7 Percentage yield:130
 8.8 Limiting reagents:131
 Revision questions:133
-9 Calculating Concentrations:135
+9 Calculating Concentrations
 9.1 Concentration of solutions:135
 9.2 Standard solutions:138
 9.3 Volumetric analysis:140
 9.4 Other units of concentration:146
 9.5 pH scale:150
 Revision questions:152
-10 Gases, Liquids and Solids:153
+10 Gases, Liquids and Solids
 10.1 Heat and temperature:153
 10.2 Changes in the state of matter:153
 10.3 Gas laws:157
@@ -87,7 +88,7 @@ Revision questions:152
 10.7 Vapour pressure:165
 10.8 Critical temperature and pressure:168
 Revision questions:169
-11 Solutions and Solubility:170
+11 Solutions and Solubility
 11.1 Solubility:170
 11.2 Dynamic nature of dissolution:176
 11.3 Solubility of sparingly soluble ionic compounds:176
@@ -96,17 +97,13 @@ Revision questions:169
 11.6 Osmosis:187
 11.7 Colloids:189
 Revision questions:190
-12 Chemical Families:192
+12 Chemical Families
 12.1 Periodic Table:192
-12.2 Group:1
-Na, K, Rb, Cs, Fr:193
-12.3 Group:2
-metals: Be, Mg, Ca, Sr, Ba, Ra:196
-12.4 Group:14
-12.5 Group:17
-Br, I, At:202
-12.6 Group:18
-gases: He, Ne, Ar, Kr, Xe, Rn:203
+12.2 Group 1 elements - the alkali metals: Li, Na, K, Rb, Cs, Fr:193
+12.3 Group 2 elements - the alkaline earth metals: Be, Mg, Ca, Sr, Ba, Ra:196
+12.4 Group 14 elements: C, Si, Ge, Sn, Pb:198
+12.5 Group 17 elements - the halogens: F, Cl, Br, I, At:202
+12.6 Group 18 elements - the noble gases: He, Ne, Ar, Kr, Xe, Rn:203
 12.7 Elements of the first transition series:204
 12.8 Variation of properties of elements within groups and periods:210
 Revision questions:214
@@ -114,13 +111,14 @@ Revision questions:214
 13.1 Conservation of energy:215
 13.2 Key points about enthalpy changes:218
 13.3 Determination of &lt;DELTA&gt;H in the laboratory:222
-13.4 Special kinds of standard enthalpy
+13.4 Special kinds of standard enthalpy change:225
 13.5 Standard enthalpy of formation:226
 13.6 Standard enthalpy of combustion:230
 13.7 Nutrition:231
 13.8 Lattice enthalpy:233
-13.9 Energetics of bond breaking and bond Revision questions:239
-14 Speed of Chemical Reactions:241
+13.9 Energetics of bond breaking and bond making:236
+Revision questions:239
+14 Speed of Chemical Reactions
 14.1 Reaction rate:241
 14.2 Factors affecting reaction rate:245
 14.3 Reaction rate expressions:250
@@ -130,7 +128,7 @@ Revision questions:214
 14.7 Reaction mechanisms:260
 14.8 Catalysis:262
 Revision questions:263
-15 Dynamic Chemical Equilibria:265
+15 Dynamic Chemical Equilibria
 15.1 Introduction:265
 15.2 Equilibrium law and equilibrium constant:267
 15.3 Meaning of equilibrium constants:269
@@ -138,16 +136,16 @@ Revision questions:263
 15.5 Production of ammonia by the Haber-Bosch process:281
 15.6 Heterogeneous equilibria:282
 Revision questions:283
-16 Acid-Base Equilibria:285
+16 Acid-Base Equilibria
 16.1 Ionic equilibria in water:285
 16.2 Acids and bases in aqueous solution:289
 16.3 Hydrolysis of salts:295
 16.4 Buffer solutions:297
 16.5 Acid-base indicators:301
-Contents:ix
 16.6 Variation of pH during an acid-base titration:303
-16.7 Buffering action of carbon dioxide in Revision questions:306
-17 Organic Chemistry: Hydrocarbons:307
+16.7 Buffering action of carbon dioxide in water:305
+Revision questions:306
+17 Organic Chemistry: Hydrocarbons
 17.1 Alkanes:307
 17.2 Alkenes:315
 17.3 Alkynes:321
@@ -163,7 +161,7 @@ Revision questions:328
 18.7 Amino acids and proteins:343
 18.8 Substituted benzene derivatives:345
 Revision questions:348
-19 Separating Mixtures:350
+19 Separating Mixtures
 19.1 Separating a solid from a liquid:350
 19.2 Separating two liquids:353
 19.3 Separating solids:355
@@ -172,11 +170,12 @@ Revision questions:348
 19.6 Solvent extraction:357
 19.7 Chromatography:360
 Revision questions:365
-20 Spectroscopy:366
+20 Spectroscopy
 20.1 Electromagnetic spectrum:366
 20.2 Energy levels of atoms and molecules:369
 20.3 Spectrometers:370
-20.4 Absorbance and transmittance of a 20.5 More about ultraviolet and visible spectra:373
+20.4 Absorbance and transmittance of a sample:371
+20.5 More about ultraviolet and visible spectra:373
 20.6 Absorption spectra and colour:377
 20.7 Infrared spectroscopy:379
 20.8 Nuclear magnetic resonance spectroscopy:386
@@ -184,27 +183,27 @@ Revision questions:365
 20.10 Photosynthesis:395
 Revision questions:396
 Special Topics
-21 Nuclear and Radiochemistry:399
+21 Nuclear and Radiochemistry
 21.1 Radioactivity:399
 21.2 Radionuclides and radioisotopes:401
 21.3 More about nuclear radiation:402
 21.4 Mathematics of radioactive decay:403
 Revision questions:406
-22 Environmental Chemistry:407
+22 Environmental Chemistry
 22.1 Introduction:407
 22.2 Atmospheric pollution:408
 22.3 Water pollution:411
 Revision questions:415
-23 Forensic Chemistry:416
+23 Forensic Chemistry
 23.1 Pre-requisites:416
 23.2 The scope of forensic chemistry:416
 23.3 Variation of the concentration of a poison with time:418
 23.4 Calculations using first-order kinetics:418
-23.5 The zeroth-order kinetics of ethanol
+23.5 The zeroth-order kinetics of ethanol decay:419
 23.6 Drinking and driving:420
 23.7 Analysis of drugs in hair:422
 Revision questions:423
-24 Chemistry Saving Lives:424
+24 Chemistry Saving Lives
 24.1 Pre-requisites:424
 24.2 Pharmaceutical chemistry:424
 24.3 Selected drugs:425
@@ -213,7 +212,7 @@ Revision questions:423
 24.6 British Pharmacopoeia (BP):427
 24.7 Common types of drugs:427
 Revision questions:431
-25 The Hydrogen Economy:433
+25 The Hydrogen Economy
 25.1 Pre-requisites:433
 25.2 Energy density of fuels:434
 25.3 Using hydrogen fuel to power a car:435
@@ -225,4 +224,3 @@ Electronic Structures:440
 Answers to Exercises and Revision Questions:442
 Glossary:464
 Valencies of Common Ions:476
-elements - the alkali metals: Li, elements - the alkaline earth elements: C, Si, Ge, Sn, Pb:198

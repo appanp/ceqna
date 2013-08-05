@@ -16,6 +16,7 @@ last_depth = 0
 node_id = 1
 part_present = 0
 debug = 0
+#debug = 0
 # END: Global variables
 
 # START: Functions
@@ -61,36 +62,49 @@ def op_end_tags(dep) :
             print >>sys.stderr,"last_depth - dep > 3, not handled: " + str(last_depth) + ' - ' + str(dep)
     last_depth = dep
 
-def op_lt_col_txt(idx) :
-    global curr_lt_topic, cols
+def op_lt_col_txt(tpc,pg_num) :
+    global curr_lt_topic
     initNumRe = re.compile('^(?P<sect_num>\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
 	# match() matches from the start while search() searches for pattern in entire string
     # Since using match() we could remove the ^ in the pattern as well.
-    initNum = initNumRe.match(cols[idx].strip())
+    initNum = initNumRe.match(tpc.strip())
     if curr_lt_topic != '' :
         if not initNum :
-			print curr_lt_topic + ' ' + ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
+			print curr_lt_topic + ' ' + ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
         else :
-			print curr_lt_topic
-			print ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
+            section_num = initNum.group('sect_num')
+            dep = get_depth(section_num)
+            print curr_lt_topic
+            if dep == 1:
+                print ' '.join(tpc.strip().split())
+            else:
+                print ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
        	curr_lt_topic = ''
     else :
-        print ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
+        if initNum:
+            section_num = initNum.group('sect_num')
+            dep = get_depth(section_num)
+            if dep == 1:
+                print ' '.join(tpc.strip().split())
+            else:
+                print ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
+        else:
+            print ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
 
-def op_lt_col_mm(idx) :
-    global curr_lt_topic, cols, node_id
+def op_lt_col_mm(tpc,pg_num) :
+    global curr_lt_topic, node_id
     initNumRe = re.compile('^(?P<sect_num>\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
     # match() matches from the start while search() searches for pattern in entire string
     # Since using match() we could remove the ^ in the pattern as well.
-    initNum = initNumRe.match(cols[idx].strip())
+    initNum = initNumRe.match(tpc.strip())
     if curr_lt_topic != '' :
         if not initNum :
             dep = get_depth(curr_lt_topic)
             op_end_tags(dep)
             if debug:
-                nodeTxt = curr_lt_topic + ' ' + ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip() + ':' + str(dep)
+                nodeTxt = curr_lt_topic + ' ' + ' '.join(tpc.strip().split()) + ':' + pg_num.strip() + ':' + str(dep)
             else:
-                nodeTxt = curr_lt_topic + ' ' + ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
+                nodeTxt = curr_lt_topic + ' ' + ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
             print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
         else :
@@ -106,60 +120,60 @@ def op_lt_col_mm(idx) :
             dep = get_depth(section_num)
             op_end_tags(dep)
             if debug:
-                nodeTxt = ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip() + ':' + str(dep)
+                nodeTxt = ' '.join(tpc.strip().split()) + ':' + pg_num.strip() + ':' + str(dep)
             else :
-                nodeTxt = ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
+                nodeTxt = ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
             print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
        	curr_lt_topic = ''
     else :
         initNumRe = re.compile('(PART|\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
-        initNum = initNumRe.match(cols[idx].strip())
+        initNum = initNumRe.match(tpc.strip())
         if initNum is not None :
-            dep = get_depth(cols[idx].strip())
+            dep = get_depth(tpc.strip())
             op_end_tags(dep)
             if debug:
-                nodeTxt = ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip() + ':' + str(dep)
+                nodeTxt = ' '.join(tpc.strip().split()) + ':' + pg_num.strip() + ':' + str(dep)
             else:
-                nodeTxt = ' '.join(cols[idx].strip().split()) + ':' + cols[idx+1].strip()
+                nodeTxt = ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
             print '<node CREATED="1347382439772" ID="ID_3_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
         else:
             # Take care of case when it is PART<spc><Num> which is taken as page num
-            if cols[idx].strip().startswith('PART') :
-                curr_lt_topic = cols[idx].strip() + ' ' +cols[idx+1].strip()
+            if tpc.strip().startswith('PART') :
+                curr_lt_topic = tpc.strip() + ' ' +pg_num.strip()
 
-def append_rt_col_lines(idx) :
-    global rt_col_lines, curr_rt_topic, cols
-    #print >>sys.stderr,"+++ In append_rt_col_lines:"+cols[idx].strip()+':'+cols[idx+1].strip()
+def append_rt_col_lines(tpc,pg_num) :
+    global rt_col_lines, curr_rt_topic
+    #print >>sys.stderr,"+++ In append_rt_col_lines:"+tpc.strip()+':'+pg_num.strip()
     initNumRe = re.compile('(\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
-    initNum = initNumRe.match(cols[idx].strip())
+    initNum = initNumRe.match(tpc.strip())
     if curr_rt_topic != '':
         if not initNum :
-            rt_col_lines.append(curr_rt_topic + ' ' + cols[idx].strip() + ':' + cols[idx+1].strip())
+            rt_col_lines.append(curr_rt_topic + ' ' + tpc.strip() + ':' + pg_num.strip())
         else :
             rt_col_lines.append(curr_rt_topic)
-            rt_col_lines.append(cols[idx].strip() + ':' + cols[idx+1].strip())
+            rt_col_lines.append(tpc.strip() + ':' + pg_num.strip())
         curr_rt_topic = ''
     else :
-        if cols[idx].strip().startswith('PART') :
-            curr_rt_topic = cols[idx].strip() + ' ' + cols[idx+1].strip()
+        if tpc.strip().startswith('PART') :
+            curr_rt_topic = tpc.strip() + ' ' + pg_num.strip()
         else :
-            rt_col_lines.append(cols[idx].strip() + ':' + cols[idx+1].strip())
+            rt_col_lines.append(tpc.strip() + ':' + pg_num.strip())
 
-def add_curr_lt_topic(idx) :
-    global curr_lt_topic, cols
+def add_curr_lt_topic(tpc) :
+    global curr_lt_topic
     if curr_lt_topic != '':
-        curr_lt_topic += ' ' + ' '.join(cols[idx].strip().split())
+        curr_lt_topic += ' ' + ' '.join(tpc.strip().split())
     else :
-        curr_lt_topic = ' '.join(cols[idx].strip().split())
+        curr_lt_topic = ' '.join(tpc.strip().split())
 
-def add_curr_rt_topic(idx) :
-    global curr_rt_topic, cols
+def add_curr_rt_topic(tpc) :
+    global curr_rt_topic
     if curr_rt_topic != '':
-        curr_rt_topic += ' ' + cols[idx].strip()
+        curr_rt_topic += ' ' + tpc.strip()
     else :
-        curr_rt_topic = cols[idx].strip()
+        curr_rt_topic = tpc.strip()
 
 def op_rt_col_lines_txt() :
     global rt_col_lines
@@ -185,15 +199,16 @@ def op_rt_col_lines_mm() :
 
 # Function to determine if the i/p line is to be discarded
 def chk_for_discard(line):
+  global curr_lt_topic
   retval = False
   # Added this check for NCERT books which have watermark
   n_line = ' '.join(line.split())
   # TODO: We need more robust logic to deduct watermarks spread across lines
   # Currenly num 10 below is magic !! 
-  if len(n_line) <= 10:
+  if curr_lt_topic == '' and len(n_line) < 10:
     retval = True
   else:
-    discard = re.compile('^\s*$|\s+(Contents|CONTENTS|PROOF|Proof)\s*')
+    discard = re.compile('^\s*$|\s*(Contents|CONTENTS|PROOF|Proof)\s*')
     line_to_discard = discard.search(line)
     if line_to_discard is not None:
 	  retval = True
@@ -203,12 +218,16 @@ def chk_for_discard(line):
 
 # START: Main
 print >>sys.stderr,"...Num. of i/p args: "+str(len(sys.argv))
-if (len(sys.argv) != 4):
-  print >>sys.stderr,"Usage: "+__file__+" <pdftotext o/p txt file> <mm or txt> <root node text"
+if (len(sys.argv) < 4):
+  print >>sys.stderr,"Usage: "+__file__+" <pdftotext o/p txt file> <mm or txt> <root node text> <opt:1|2 for col. nums>"
   sys.exit(-1)
 ipF = open(sys.argv[1],'r')
 opTyp = sys.argv[2]
 root_txt = sys.argv[3]
+if len(sys.argv) > 4 :
+    num_ip_cols = sys.argv[4]
+else :
+    num_ip_cols = '2' #Default is 2 columns
 if opTyp == 'mm' :
     # Print the header of the .mm XML file
     print '<map version="1.0.0">'
@@ -243,42 +262,51 @@ for line in ipF :
     l_spcs = re.compile('^\s+')
     l_spcs_mo = l_spcs.match(line)
     cols = p.split(line)
-    #print >>sys.stderr,"...len of cols:"+str(len(cols))+" line:"+line
+    if debug:
+        print >>sys.stderr,"...len of cols:"+str(len(cols))+" line:"+line
+        for col in cols:
+            print >>sys.stderr,"......",col
     if len(cols) == 1 :
-		# Could be either left and/or right column without page number
-        if l_spcs_mo and (l_spcs_mo.end() >= 60) :
-            add_curr_rt_topic(0)
+	    # Could be either left and/or right column without page number
+        if len(rt_col_lines) > 0:
+            if l_spcs_mo and (l_spcs_mo.end() >= 60) :
+                add_curr_rt_topic(cols[0])
+            else :
+                add_curr_lt_topic(cols[0])
         else :
-            add_curr_lt_topic(0)
+            add_curr_lt_topic(line)
         # TODO: Handle both left & right cols. texts
     elif len(cols) == 2 or len(cols) == 3 :
         # This can never happen: just print the line
         print >>sys.stderr,"...Split array has two/three segments"
     elif len(cols) == 4 :
         if cols[3].strip() != '' :
-            if opTyp == 'mm' :
-	            op_lt_col_mm(0)
+		    # Chk if this is just an i/p file of 1-col only
+            if len(rt_col_lines) > 0:
+                if opTyp == 'mm' :
+	                op_lt_col_mm(cols[0],cols[1])
+                else :
+			        op_lt_col_txt(cols[0], cols[1])
+                add_curr_rt_topic(cols[3])
             else :
-			    op_lt_col_txt(0)
-            add_curr_rt_topic(3)
+                add_curr_lt_topic(line)
         else :
             #print >>sys.stderr, "...i/p line: "+line
             if l_spcs_mo and (l_spcs_mo.end() >= 60) :
-                append_rt_col_lines(0)
+                append_rt_col_lines(cols[0],cols[1])
             else :
-                # The magic number 20 is for beginning of left col text after spaces 
+                # The magic number 25 is for beginning of left col text after spaces 
                 #idx_num = line.find(cols[1])
                 idx_num = line.find(cols[0])
                 if idx_num != -1 and idx_num < 25 :
-                    #TODO: Add filtering of string before printing
                     if opTyp == 'mm' :
-	                    op_lt_col_mm(0)
+	                    op_lt_col_mm(cols[0],cols[1])
                     else :
-			            op_lt_col_txt(0)
+			            op_lt_col_txt(cols[0],cols[1])
                 else :
                     # Split cols[0] with more than 3 spaces & store left col & append right col
 					# Giving error for NCERT books ToCs. 'coz of page watermarks. 
-                    print >>sys.stderr,"......i/p line is:"+line
+                    # print >>sys.stderr,"......i/p line is:"+line
                     spc_idx = l_spcs_mo.end()
                     if curr_lt_topic != '' :
                     	curr_lt_topic += ' ' + cols[0][spc_idx:59].strip()
@@ -295,13 +323,45 @@ for line in ipF :
         print >>sys.stderr,"...Split array has five/six segments"
     elif len(cols) == 7 :
 #TODO: Add filtering of string before printing
-        if opTyp == 'mm' :
-	        op_lt_col_mm(0)
+        # This does not always mean 2 cols with pagenums present.
+        # TODO: Handle the case in which there could be numbers in heading text
+        if len(rt_col_lines) > 0: 
+            if opTyp == 'mm' :
+	            op_lt_col_mm(cols[0],cols[1])
+            else :
+                op_lt_col_txt(cols[0],cols[1])
+            append_rt_col_lines(cols[3],cols[4])
         else :
-            op_lt_col_txt(0)
-        append_rt_col_lines(3)
+            tpc_l = ' '.join([ cols[0], cols[1], cols[3] ])
+            pg_num_l = cols[4]
+            op_lt_col_txt(tpc_l,pg_num_l)
+    elif len(cols) == 8 or len(cols) == 9 :
+        # This can never happen: just print the line
+        print >>sys.stderr,"...Split array has eight/nine segments"
+    elif len(cols) == 10 :
+		# This is definitely a line with one number in the section heading text
+	    # The number could be either in left or right col
+        tpc_l = pg_num_l = tpc_r = pg_num_r = ''
+        idx_c1 = line.find(cols[1])
+        if idx_c1 <= 50 :
+            # Num is in left col text
+            tpc_l = ' '.join([ cols[0], cols[1], cols[3] ])
+            pg_num_l = cols[4]
+            tpc_r = cols[6]
+            pg_num_r = cols[7]
+        else :
+	        # Num is in the right col text
+            tpc_l = cols[0]
+            pg_num_l = cols[1]
+            tpc_r = ' '.join([ cols[3], cols[4], cols[6] ])
+            pg_num_r = cols[7]
+        if opTyp == 'mm' :
+	        op_lt_col_mm(tpc_l,pg_num_l)
+        else :
+            op_lt_col_txt(tpc_l,pg_num_l)
+        append_rt_col_lines(tpc_r,pg_num_r)
     else :
-        print >>sys.stderr,"...Length of split string with num more than 5:"
+        print >>sys.stderr,"...Length of split string with num more than 10:"
         for col in cols:
             print >>sys.stderr,"......",col
         print >>sys.stderr,"...End of Cols"

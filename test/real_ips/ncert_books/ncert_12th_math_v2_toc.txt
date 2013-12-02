@@ -1,0 +1,137 @@
+                                      Contents
+                                        PART II
+
+
+
+
+                                                        he
+       Foreword                                                   iii
+       Preface                                                     v
+   7. Integrals                                                  287
+
+
+
+
+                                                      is
+      7.1 Introduction                                           288
+      7.2 Integration as an Inverse Process of Differentiation   288
+      7.3 Methods of Integration                                 300
+
+
+
+
+                                                    bl
+      7.4 Integrals of some Particular Functions                 307
+      7.5 Integration by Partial Fractions                       316
+      7.6 Integration by Parts                                   323
+          pu
+      7.7 Definite Integral                                      331
+      7.8 Fundamental Theorem of Calculus                        334
+      7.9 Evaluation of Definite Integrals by Substitution       338
+     be T
+
+      7.10 Some Properties of Definite Integrals                 341
+       re
+   8. Application of Integrals                                   359
+    o R
+
+
+      8.1 Introduction                                           359
+      8.2 Area under Simple Curves                               359
+      8.3 Area between Two Curves                                366
+  tt E
+
+
+
+   9. Differential Equations                                     379
+      9.1 Introduction                                           379
+     C
+
+
+
+
+      9.2 Basic Concepts                                         379
+      9.3 General and Particular Solutions of a                  383
+            Differential Equation
+no N
+
+
+
+
+      9.4 Formation of a Differential Equation whose             385
+            General Solution is given
+      9.5 Methods of Solving First order, First Degree           391
+            Differential Equations
+  ©
+
+
+
+
+   10. Vector Algebra                                            424
+       10.1 Introduction                                         424
+       10.2 Some Basic Concepts                                  424
+       10.3 Types of Vectors                                     427
+       10.4 Addition of Vectors                                  429
+                                           xii
+
+        10.5 Multiplication of a Vector by a Scalar                       432
+        10.6 Product of Two Vectors                                       441
+   11. Three Dimensional Geometry                                         463
+       11.1 Introduction                                                  463
+       11.2 Direction Cosines and Direction Ratios of a Line              463
+       11.3 Equation of a Line in Space                                   468
+
+
+
+
+                                                          he
+       11.4 Angle between Two Lines                                       471
+       11.5 Shortest Distance between Two Lines                           473
+       11.6 Plane                                                         479
+       11.7 Coplanarity of Two Lines                                      487
+
+
+
+
+                                                        is
+       11.8 Angle between Two Planes                                      488
+       11.9 Distance of a Point from a Plane                              490
+       11.10 Angle between a Line and a Plane                             492
+
+
+
+
+                                                      bl
+   12. Linear Programming                                                 504
+       12.1 Introduction                                                  504
+       12.2 Linear Programming Problem and its Mathematical Formulation   505
+          pu
+       12.3 Different Types of Linear Programming Problems                514
+   13. Probability                                                        531
+     be T
+
+       13.1 Introduction                                                  531
+       13.2 Conditional Probability                                       531
+       re
+    o R
+
+
+       13.3 Multiplication Theorem on Probability                         540
+       13.4 Independent Events                                            542
+       13.5 Bayes' Theorem                                                548
+  tt E
+
+
+
+       13.6 Random Variables and its Probability Distributions            557
+       13.7 Bernoulli Trials and Binomial Distribution                    572
+     C
+
+
+
+
+        Answers                                                           588
+        Supplementary Material                                            613
+no N
+  ©
+

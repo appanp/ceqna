@@ -1,0 +1,272 @@
+                                         Contents
+        Foreword                                                          iii
+
+
+
+
+                                                          he
+   1.   Sets                                                               1
+        1.1    Introduction                                                1
+        1.2    Sets and their Representations                              1
+
+
+
+
+                                                        is
+        1.3    The Empty Set                                               5
+        1.4    Finite and Infinite Sets                                    6
+        1.5    Equal Sets                                                  7
+
+
+
+
+                                                      bl
+        1.6    Subsets                                                     9
+        1.7    Power Set                                                  12
+        1.8    Universal Set                                              12
+          pu
+        1.9    Venn Diagrams                                              13
+        1.10   Operations on Sets                                         14
+     be T
+
+        1.11   Complement of a Set                                        18
+        1.12   Practical Problems on Union and Intersection of Two Sets   21
+       re
+    o R
+
+
+   2.   Relations and Functions                                           30
+        2.1 Introduction                                                  30
+  tt E
+
+
+
+        2.2 Cartesian Product of Sets                                     30
+        2.3 Relations                                                     34
+        2.4 Functions                                                     36
+     C
+
+
+
+
+   3.   Trigonometric Functions                                           49
+        3.1 Introduction                                                  49
+no N
+
+
+
+
+        3.2 Angles                                                        49
+        3.3 Trigonometric Functions                                       55
+        3.4 Trigonometric Functions of Sum and Difference of Two Angles   63
+        3.5 Trigonometric Equations                                       74
+  ©
+
+
+
+
+   4.   Principle of Mathematical Induction                               86
+        4.1 Introduction                                                  86
+        4.2 Motivation                                                    87
+        4.3 The Principle of Mathematical Induction                       88
+   5.   Complex Numbers and Quadratic Equations                           97
+        5.1 Introduction                                                  97
+        5.2 Complex Numbers                                               97
+        5.3 Algebra of Complex Numbers                                    98
+        5.4 The Modulus and the Conjugate of a Complex Number            102
+        5.5 Argand Plane and Polar Representation                        104
+
+
+
+
+                                                          he
+        5.6 Quadratic Equations                                          108
+   6.   Linear Inequalities                                              116
+        6.1 Introduction                                                 116
+        6.2 Inequalities                                                 116
+
+
+
+
+                                                        is
+        6.3 Algebraic Solutions of Linear Inequalities in One Variable
+             and their Graphical Representation                          118
+        6.4 Graphical Solution of Linear Inequalities in Two Variables   123
+
+
+
+
+                                                      bl
+        6.5 Solution of System of Linear Inequalities in Two Variables   127
+   7.   Permutations and Combinations                                    134
+        7.1 Introduction                                                 134
+          pu
+        7.2 Fundamental Principle of Counting                            134
+        7.3 Permutations                                                 138
+     be T
+
+        7.4 Combinations                                                 148
+       re
+   8.   Binomial Theorem                                                 160
+    o R
+
+
+        8.1 Introduction                                                 160
+        8.2 Binomial Theorem for Positive Integral Indices               160
+        8.3 General and Middle Terms                                     167
+  tt E
+
+
+
+   9.   Sequences and Series                                             177
+        9.1 Introduction                                                 177
+     C
+
+
+
+
+        9.2 Sequences                                                    177
+        9.3 Series                                                       179
+        9.4 Arithmetic Progression (A.P.)                                181
+no N
+
+
+
+
+        9.5 Geometric Progression (G.P.)                                 186
+        9.6 Relationship Between A.M. and G.M.                           191
+        9.7 Sum to n terms of Special Series                             194
+  ©
+
+
+
+
+   10. Straight Lines                                                    203
+       10.1 Introduction                                                 203
+       10.2 Slope of a Line                                              204
+       10.3 Various Forms of the Equation of a Line                      212
+       10.4 General Equation of a Line                                   220
+       10.5 Distance of a Point From a Line                              225
+                                          viii
+   11. Conic Sections                                  236
+       11.1 Introduction                               236
+       11.2 Sections of a Cone                         236
+       11.3 Circle                                     239
+       11.4 Parabola                                   242
+       11.5 Ellipse                                    247
+
+
+
+
+                                                      he
+       11.6 Hyperbola                                  255
+   12. Introduction to Three Dimensional Geometry      268
+       12.1 Introduction                               268
+
+
+
+
+                                                    is
+       12.2 Coordinate Axes and Coordinate Planes in
+             Three Dimensional Space                   269
+       12.3 Coordinates of a Point in Space            269
+
+
+
+
+                                                  bl
+       12.4 Distance between Two Points                271
+       12.5 Section Formula
+          pu                                           273
+   13. Limits and Derivatives                          281
+       13.1 Introduction                               281
+       13.2 Intuitive Idea of Derivatives              281
+     be T
+
+       13.3 Limits                                     284
+       re
+       13.4 Limits of Trigonometric Functions          298
+    o R
+
+
+       13.5 Derivatives                                303
+   14. Mathematical Reasoning                          321
+  tt E
+
+
+
+       14.1 Introduction                               321
+       14.2 Statements                                 321
+     C
+
+
+
+
+       14.3 New Statements from Old                    324
+       14.4 Special Words/Phrases                      329
+       14.5 Implications                               335
+no N
+
+
+
+
+       14.6 Validating Statements                      339
+   15. Statistics                                      347
+       15.1 Introduction                               347
+  ©
+
+
+
+
+       15.2 Measures of Dispersion                     349
+       15.3 Range                                      349
+       15.4 Mean Deviation                             349
+       15.5 Variance and Standard Deviation            361
+       15.6 Analysis of Frequency Distributions        372
+                                         ix
+   16. Probability                                 383
+       16.1 Introduction                           383
+       16.2 Random Experiments                     384
+       16.3 Event                                  387
+       16.4 Axiomatic Approach to Probability      394
+       Appendix 1: Infinite Series                 412
+
+
+
+
+                                                    he
+       A.1.1 Introduction                          412
+       A.1.2 Binomial Theorem for any Index        412
+       A.1.3 Infinite Geometric Series             414
+       A.1.4 Exponential Series                    416
+
+
+
+
+                                                  is
+       A.1.5 Logarithmic Series                    419
+       Appendix 2: Mathematical Modelling          421
+
+
+
+
+                                                bl
+       A.2.1 Introduction                          421
+       A.2.2 Preliminaries                         421
+       A.2.3 What is Mathematical Modelling        425
+          pu
+       Answers                                     433
+       Supplementary Material                      466
+     be T
+       re
+    o R
+  tt E
+     C
+no N
+  ©
+
+
+
+
+                                         x
+

@@ -1,0 +1,210 @@
+<map version="1.0.0">
+<node CREATED="1347382439772" ID="ID_1" LINK="test/real_ips/ncert_11th_math_toc.txt" MODIFIED="1347382510988" TEXT="NCERT 11th Math">
+<node CREATED="1347382439772" ID="ID_3_2" MODIFIED="1347382510988" TEXT="1.1 Introduction:1">
+</node>
+<node CREATED="1347382439772" ID="ID_3_3" MODIFIED="1347382510988" TEXT="1.2 Sets and their Representations:1">
+</node>
+<node CREATED="1347382439772" ID="ID_3_4" MODIFIED="1347382510988" TEXT="1.3 The Empty Set:5">
+</node>
+<node CREATED="1347382439772" ID="ID_3_5" MODIFIED="1347382510988" TEXT="1.4 Finite and Infinite Sets:6">
+</node>
+<node CREATED="1347382439772" ID="ID_3_6" MODIFIED="1347382510988" TEXT="1.5 Equal Sets:7">
+</node>
+<node CREATED="1347382439772" ID="ID_3_7" MODIFIED="1347382510988" TEXT="1.6 Subsets:9">
+</node>
+<node CREATED="1347382439772" ID="ID_3_8" MODIFIED="1347382510988" TEXT="1.7 Power Set:12">
+</node>
+<node CREATED="1347382439772" ID="ID_3_9" MODIFIED="1347382510988" TEXT="1.8 Universal Set:12">
+</node>
+<node CREATED="1347382439772" ID="ID_3_10" MODIFIED="1347382510988" TEXT="1.9 Venn Diagrams:13">
+</node>
+<node CREATED="1347382439772" ID="ID_3_11" MODIFIED="1347382510988" TEXT="1.10 Operations on Sets:14">
+</node>
+<node CREATED="1347382439772" ID="ID_3_12" MODIFIED="1347382510988" TEXT="1.11 Complement of a Set:18">
+</node>
+<node CREATED="1347382439772" ID="ID_3_13" MODIFIED="1347382510988" TEXT="1.12 Practical Problems on Union and Intersection of Two Sets:21">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_14" MODIFIED="1347382510988" TEXT="2. Relations and Functions:30">
+<node CREATED="1347382439772" ID="ID_3_15" MODIFIED="1347382510988" TEXT="2.1 Introduction:30">
+</node>
+<node CREATED="1347382439772" ID="ID_3_16" MODIFIED="1347382510988" TEXT="2.2 Cartesian Product of Sets:30">
+</node>
+<node CREATED="1347382439772" ID="ID_3_17" MODIFIED="1347382510988" TEXT="2.3 Relations:34">
+</node>
+<node CREATED="1347382439772" ID="ID_3_18" MODIFIED="1347382510988" TEXT="2.4 Functions:36">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_19" MODIFIED="1347382510988" TEXT="3. Trigonometric Functions:49">
+<node CREATED="1347382439772" ID="ID_3_20" MODIFIED="1347382510988" TEXT="3.1 Introduction:49">
+</node>
+<node CREATED="1347382439772" ID="ID_3_21" MODIFIED="1347382510988" TEXT="3.2 Angles:49">
+</node>
+<node CREATED="1347382439772" ID="ID_3_22" MODIFIED="1347382510988" TEXT="3.3 Trigonometric Functions:55">
+</node>
+<node CREATED="1347382439772" ID="ID_3_23" MODIFIED="1347382510988" TEXT="3.4 Trigonometric Functions of Sum and Difference of Two Angles:63">
+</node>
+<node CREATED="1347382439772" ID="ID_3_24" MODIFIED="1347382510988" TEXT="3.5 Trigonometric Equations:74">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_25" MODIFIED="1347382510988" TEXT="4. Principle of Mathematical Induction:86">
+<node CREATED="1347382439772" ID="ID_3_26" MODIFIED="1347382510988" TEXT="4.1 Introduction:86">
+</node>
+<node CREATED="1347382439772" ID="ID_3_27" MODIFIED="1347382510988" TEXT="4.2 Motivation:87">
+</node>
+<node CREATED="1347382439772" ID="ID_3_28" MODIFIED="1347382510988" TEXT="4.3 The Principle of Mathematical Induction:88">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_29" MODIFIED="1347382510988" TEXT="5. Complex Numbers and Quadratic Equations:97">
+<node CREATED="1347382439772" ID="ID_3_30" MODIFIED="1347382510988" TEXT="5.1 Introduction:97">
+</node>
+<node CREATED="1347382439772" ID="ID_3_31" MODIFIED="1347382510988" TEXT="5.2 Complex Numbers:97">
+</node>
+<node CREATED="1347382439772" ID="ID_3_32" MODIFIED="1347382510988" TEXT="5.3 Algebra of Complex Numbers:98">
+</node>
+<node CREATED="1347382439772" ID="ID_3_33" MODIFIED="1347382510988" TEXT="5.4 The Modulus and the Conjugate of a Complex Number:102">
+</node>
+<node CREATED="1347382439772" ID="ID_3_34" MODIFIED="1347382510988" TEXT="5.5 Argand Plane and Polar Representation:104">
+</node>
+<node CREATED="1347382439772" ID="ID_3_35" MODIFIED="1347382510988" TEXT="5.6 Quadratic Equations:108">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_36" MODIFIED="1347382510988" TEXT="6. Linear Inequalities:116">
+<node CREATED="1347382439772" ID="ID_3_37" MODIFIED="1347382510988" TEXT="6.1 Introduction:116">
+</node>
+<node CREATED="1347382439772" ID="ID_3_38" MODIFIED="1347382510988" TEXT="6.2 Inequalities:116">
+......Not initNum for tpc:and their Graphical Representation
+</node>
+<node CREATED="1347382439772" ID="ID_39" MODIFIED="1347382510988" TEXT="6.3 Algebraic Solutions of Linear Inequalities in One Variable and their Graphical Representation:118">
+</node>
+<node CREATED="1347382439772" ID="ID_3_40" MODIFIED="1347382510988" TEXT="6.4 Graphical Solution of Linear Inequalities in Two Variables:123">
+</node>
+<node CREATED="1347382439772" ID="ID_3_41" MODIFIED="1347382510988" TEXT="6.5 Solution of System of Linear Inequalities in Two Variables:127">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_42" MODIFIED="1347382510988" TEXT="7. Permutations and Combinations:134">
+<node CREATED="1347382439772" ID="ID_3_43" MODIFIED="1347382510988" TEXT="7.1 Introduction:134">
+</node>
+<node CREATED="1347382439772" ID="ID_3_44" MODIFIED="1347382510988" TEXT="7.2 Fundamental Principle of Counting:134">
+</node>
+<node CREATED="1347382439772" ID="ID_3_45" MODIFIED="1347382510988" TEXT="7.3 Permutations:138">
+</node>
+<node CREATED="1347382439772" ID="ID_3_46" MODIFIED="1347382510988" TEXT="7.4 Combinations:148">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_47" MODIFIED="1347382510988" TEXT="8. Binomial Theorem:160">
+<node CREATED="1347382439772" ID="ID_3_48" MODIFIED="1347382510988" TEXT="8.1 Introduction:160">
+</node>
+<node CREATED="1347382439772" ID="ID_3_49" MODIFIED="1347382510988" TEXT="8.2 Binomial Theorem for Positive Integral Indices:160">
+</node>
+<node CREATED="1347382439772" ID="ID_3_50" MODIFIED="1347382510988" TEXT="8.3 General and Middle Terms:167">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_51" MODIFIED="1347382510988" TEXT="9. Sequences and Series:177">
+<node CREATED="1347382439772" ID="ID_3_52" MODIFIED="1347382510988" TEXT="9.1 Introduction:177">
+</node>
+<node CREATED="1347382439772" ID="ID_3_53" MODIFIED="1347382510988" TEXT="9.2 Sequences:177">
+</node>
+<node CREATED="1347382439772" ID="ID_3_54" MODIFIED="1347382510988" TEXT="9.3 Series:179">
+</node>
+<node CREATED="1347382439772" ID="ID_3_55" MODIFIED="1347382510988" TEXT="9.4 Arithmetic Progression (A.P.):181">
+</node>
+<node CREATED="1347382439772" ID="ID_3_56" MODIFIED="1347382510988" TEXT="9.5 Geometric Progression (G.P.):186">
+</node>
+<node CREATED="1347382439772" ID="ID_3_57" MODIFIED="1347382510988" TEXT="9.6 Relationship Between A.M. and G.M.:191">
+</node>
+<node CREATED="1347382439772" ID="ID_3_58" MODIFIED="1347382510988" TEXT="9.7 Sum to n terms of Special Series:194">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_59" MODIFIED="1347382510988" TEXT="10. Straight Lines:203">
+<node CREATED="1347382439772" ID="ID_3_60" MODIFIED="1347382510988" TEXT="10.1 Introduction:203">
+</node>
+<node CREATED="1347382439772" ID="ID_3_61" MODIFIED="1347382510988" TEXT="10.2 Slope of a Line:204">
+</node>
+<node CREATED="1347382439772" ID="ID_3_62" MODIFIED="1347382510988" TEXT="10.3 Various Forms of the Equation of a Line:212">
+</node>
+<node CREATED="1347382439772" ID="ID_3_63" MODIFIED="1347382510988" TEXT="10.4 General Equation of a Line:220">
+</node>
+<node CREATED="1347382439772" ID="ID_3_64" MODIFIED="1347382510988" TEXT="10.5 Distance of a Point From a Line:225">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_65" MODIFIED="1347382510988" TEXT="11. Conic Sections:236">
+<node CREATED="1347382439772" ID="ID_3_66" MODIFIED="1347382510988" TEXT="11.1 Introduction:236">
+</node>
+<node CREATED="1347382439772" ID="ID_3_67" MODIFIED="1347382510988" TEXT="11.2 Sections of a Cone:236">
+</node>
+<node CREATED="1347382439772" ID="ID_3_68" MODIFIED="1347382510988" TEXT="11.3 Circle:239">
+</node>
+<node CREATED="1347382439772" ID="ID_3_69" MODIFIED="1347382510988" TEXT="11.4 Parabola:242">
+</node>
+<node CREATED="1347382439772" ID="ID_3_70" MODIFIED="1347382510988" TEXT="11.5 Ellipse:247">
+</node>
+<node CREATED="1347382439772" ID="ID_3_71" MODIFIED="1347382510988" TEXT="11.6 Hyperbola:255">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_72" MODIFIED="1347382510988" TEXT="12. Introduction to Three Dimensional Geometry:268">
+<node CREATED="1347382439772" ID="ID_3_73" MODIFIED="1347382510988" TEXT="12.1 Introduction:268">
+......Not initNum for tpc:Three Dimensional Space
+</node>
+<node CREATED="1347382439772" ID="ID_74" MODIFIED="1347382510988" TEXT="12.2 Coordinate Axes and Coordinate Planes in Three Dimensional Space:269">
+</node>
+<node CREATED="1347382439772" ID="ID_3_75" MODIFIED="1347382510988" TEXT="12.3 Coordinates of a Point in Space:269">
+</node>
+<node CREATED="1347382439772" ID="ID_3_76" MODIFIED="1347382510988" TEXT="12.4 Distance between Two Points:271">
+......Not initNum for tpc:pu
+</node>
+<node CREATED="1347382439772" ID="ID_77" MODIFIED="1347382510988" TEXT="12.5 Section Formula pu:273">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_78" MODIFIED="1347382510988" TEXT="13. Limits and Derivatives:281">
+<node CREATED="1347382439772" ID="ID_3_79" MODIFIED="1347382510988" TEXT="13.1 Introduction:281">
+</node>
+<node CREATED="1347382439772" ID="ID_3_80" MODIFIED="1347382510988" TEXT="13.2 Intuitive Idea of Derivatives:281">
+</node>
+<node CREATED="1347382439772" ID="ID_3_81" MODIFIED="1347382510988" TEXT="13.3 Limits:284">
+</node>
+<node CREATED="1347382439772" ID="ID_3_82" MODIFIED="1347382510988" TEXT="13.4 Limits of Trigonometric Functions:298">
+</node>
+<node CREATED="1347382439772" ID="ID_3_83" MODIFIED="1347382510988" TEXT="13.5 Derivatives:303">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_84" MODIFIED="1347382510988" TEXT="14. Mathematical Reasoning:321">
+<node CREATED="1347382439772" ID="ID_3_85" MODIFIED="1347382510988" TEXT="14.1 Introduction:321">
+</node>
+<node CREATED="1347382439772" ID="ID_3_86" MODIFIED="1347382510988" TEXT="14.2 Statements:321">
+</node>
+<node CREATED="1347382439772" ID="ID_3_87" MODIFIED="1347382510988" TEXT="14.3 New Statements from Old:324">
+</node>
+<node CREATED="1347382439772" ID="ID_3_88" MODIFIED="1347382510988" TEXT="14.4 Special Words/Phrases:329">
+</node>
+<node CREATED="1347382439772" ID="ID_3_89" MODIFIED="1347382510988" TEXT="14.5 Implications:335">
+</node>
+<node CREATED="1347382439772" ID="ID_3_90" MODIFIED="1347382510988" TEXT="14.6 Validating Statements:339">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_91" MODIFIED="1347382510988" TEXT="15. Statistics:347">
+<node CREATED="1347382439772" ID="ID_3_92" MODIFIED="1347382510988" TEXT="15.1 Introduction:347">
+</node>
+<node CREATED="1347382439772" ID="ID_3_93" MODIFIED="1347382510988" TEXT="15.2 Measures of Dispersion:349">
+</node>
+<node CREATED="1347382439772" ID="ID_3_94" MODIFIED="1347382510988" TEXT="15.3 Range:349">
+</node>
+<node CREATED="1347382439772" ID="ID_3_95" MODIFIED="1347382510988" TEXT="15.4 Mean Deviation:349">
+</node>
+<node CREATED="1347382439772" ID="ID_3_96" MODIFIED="1347382510988" TEXT="15.5 Variance and Standard Deviation:361">
+</node>
+<node CREATED="1347382439772" ID="ID_3_97" MODIFIED="1347382510988" TEXT="15.6 Analysis of Frequency Distributions:372">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_98" MODIFIED="1347382510988" TEXT="16. Probability:383">
+<node CREATED="1347382439772" ID="ID_3_99" MODIFIED="1347382510988" TEXT="16.1 Introduction:383">
+</node>
+<node CREATED="1347382439772" ID="ID_3_100" MODIFIED="1347382510988" TEXT="16.2 Random Experiments:384">
+</node>
+<node CREATED="1347382439772" ID="ID_3_101" MODIFIED="1347382510988" TEXT="16.3 Event:387">
+</node>
+<node CREATED="1347382439772" ID="ID_3_102" MODIFIED="1347382510988" TEXT="16.4 Axiomatic Approach to Probability:394">
+</node>
+</node>
+</node>
+</map>

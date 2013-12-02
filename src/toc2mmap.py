@@ -6,6 +6,7 @@
 # NOTE:
 import sys
 import re
+import xml.parsers.expat
 
 # START: Global variables 
 rt_col_lines = []
@@ -20,43 +21,52 @@ debug = 0
 # END: Global variables
 
 # START: Functions
+def parseXmlFile(file):
+	parser = xml.parsers.expat.ParserCreate()
+	parser.ParseFile(open(file,'r'))
+
 def get_depth(ip_str) :
     global part_present
     dep = 0
     spc = ip_str.find(' ')
     num_pfx = ip_str[0:spc]
-    if ip_str.startswith('PART'):
+    if ip_str.startswith('PART') :
         dep = 1
         part_present = 1
+    elif ip_str.startswith('CHAPTER') :
+		dep = 1
     else:
         num_dots = num_pfx.count('.')
         if num_pfx.strip().endswith('.') :
-            dep = num_dots + 1
+            if num_dots == 1:
+				dep = num_dots
+            else :
+				dep = num_dots + 1
         else :
             if part_present :
 			    dep = num_dots + 2
             else :
 				dep = num_dots + 1
-    #print >>sys.stderr,"*** get_depth() ip_str:"+ip_str+" dep:"+str(dep)
+    print >>sys.stderr,"*** get_depth() ip_str:"+ip_str+" dep:"+str(dep)
     return dep
 
 def op_end_tags(dep) :
     global last_depth
     # if last_depth - dep < 0, no need to do anything
     if last_depth == dep :
-        print '</node>' # End tag for the prev. node
+        print >>opF,'</node>' # End tag for the prev. node
     elif last_depth == (dep + 1) :
-        print '</node>' # End tag for the prev. node
-        print '</node>' # End tag dor prev. containing node
+        print >>opF,'</node>' # End tag for the prev. node
+        print >>opF,'</node>' # End tag dor prev. containing node
     elif last_depth == (dep + 2) :
-        print '</node>' # End tag for the prev. node
-        print '</node>' # End tag dor prev. containing node
-        print '</node>'
+        print >>opF,'</node>' # End tag for the prev. node
+        print >>opF,'</node>' # End tag dor prev. containing node
+        print >>opF,'</node>'
     elif last_depth == (dep + 3) :
-        print '</node>' # End tag for the prev. node
-        print '</node>' # End tag dor prev. containing node
-        print '</node>' # End tag dor prev. containing node
-        print '</node>'
+        print >>opF,'</node>' # End tag for the prev. node
+        print >>opF,'</node>' # End tag dor prev. containing node
+        print >>opF,'</node>' # End tag dor prev. containing node
+        print >>opF,'</node>'
     else :
         if last_depth - dep > 3 :
             print >>sys.stderr,"last_depth - dep > 3, not handled: " + str(last_depth) + ' - ' + str(dep)
@@ -70,26 +80,28 @@ def op_lt_col_txt(tpc,pg_num) :
     initNum = initNumRe.match(tpc.strip())
     if curr_lt_topic != '' :
         if not initNum :
-			print curr_lt_topic + ' ' + ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
+			print >>opF,curr_lt_topic + ' ' + ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
         else :
             section_num = initNum.group('sect_num')
+            print >>opF,"--- section_num:"+section_num
             dep = get_depth(section_num)
-            print curr_lt_topic
+            print >>opF,curr_lt_topic
             if dep == 1:
-                print ' '.join(tpc.strip().split())
+                print >>opF,' '.join(tpc.strip().split())
             else:
-                print ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
+                print >>opF,' '.join(tpc.strip().split()) + ':' + pg_num.strip()
        	curr_lt_topic = ''
     else :
         if initNum:
             section_num = initNum.group('sect_num')
+            print >>opF,"--- section_num:"+section_num
             dep = get_depth(section_num)
             if dep == 1:
-                print ' '.join(tpc.strip().split())
+                print >>opF,' '.join(tpc.strip().split())
             else:
-                print ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
+                print >>opF,' '.join(tpc.strip().split()) + ':' + pg_num.strip()
         else:
-            print ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
+            print >>opF,' '.join(tpc.strip().split()) + ':' + pg_num.strip()
 
 def op_lt_col_mm(tpc,pg_num) :
     global curr_lt_topic, node_id
@@ -99,31 +111,34 @@ def op_lt_col_mm(tpc,pg_num) :
     initNum = initNumRe.match(tpc.strip())
     if curr_lt_topic != '' :
         if not initNum :
+            print "......Not initNum for tpc:"+tpc.strip()
             dep = get_depth(curr_lt_topic)
             op_end_tags(dep)
             if debug:
                 nodeTxt = curr_lt_topic + ' ' + ' '.join(tpc.strip().split()) + ':' + pg_num.strip() + ':' + str(dep)
             else:
                 nodeTxt = curr_lt_topic + ' ' + ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
-            print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
+            print >>opF,'<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
         else :
+            print "......Else initNum for tpc:"+tpc.strip()
             dep = get_depth(curr_lt_topic)
             op_end_tags(dep)
             if debug:
                 nodeTxt = curr_lt_topic + ':' + str(dep)
             else:
                 nodeTxt = curr_lt_topic
-            print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
+            print >>opF,'<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
             section_num = initNum.group('sect_num')
+            print >>opF,"--- section_num:"+section_num
             dep = get_depth(section_num)
             op_end_tags(dep)
             if debug:
                 nodeTxt = ' '.join(tpc.strip().split()) + ':' + pg_num.strip() + ':' + str(dep)
             else :
                 nodeTxt = ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
-            print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
+            print >>opF,'<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
        	curr_lt_topic = ''
     else :
@@ -136,11 +151,11 @@ def op_lt_col_mm(tpc,pg_num) :
                 nodeTxt = ' '.join(tpc.strip().split()) + ':' + pg_num.strip() + ':' + str(dep)
             else:
                 nodeTxt = ' '.join(tpc.strip().split()) + ':' + pg_num.strip()
-            print '<node CREATED="1347382439772" ID="ID_3_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
+            print >>opF,'<node CREATED="1347382439772" ID="ID_3_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
         else:
             # Take care of case when it is PART<spc><Num> which is taken as page num
-            if tpc.strip().startswith('PART') :
+            if tpc.strip().startswith('PART') or tpc.strip().startswith('CHAPTER'):
                 curr_lt_topic = tpc.strip() + ' ' +pg_num.strip()
 
 def append_rt_col_lines(tpc,pg_num) :
@@ -156,7 +171,7 @@ def append_rt_col_lines(tpc,pg_num) :
             rt_col_lines.append(tpc.strip() + ':' + pg_num.strip())
         curr_rt_topic = ''
     else :
-        if tpc.strip().startswith('PART') :
+        if tpc.strip().startswith('PART') or tpc.strip().startswith('CHAPTER'):
             curr_rt_topic = tpc.strip() + ' ' + pg_num.strip()
         else :
             rt_col_lines.append(tpc.strip() + ':' + pg_num.strip())
@@ -178,7 +193,7 @@ def add_curr_rt_topic(tpc) :
 def op_rt_col_lines_txt() :
     global rt_col_lines
     for itm in rt_col_lines:
-		print itm
+		print >>opF,itm
     rt_col_lines = []
 
 def op_rt_col_lines_mm() :
@@ -193,7 +208,7 @@ def op_rt_col_lines_mm() :
                 nodeTxt = itm + ':' + str(dep)
             else :
                 nodeTxt = itm
-            print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
+            print >>opF,'<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
     rt_col_lines = []
 
@@ -204,8 +219,8 @@ def chk_for_discard(line):
   # Added this check for NCERT books which have watermark
   n_line = ' '.join(line.split())
   # TODO: We need more robust logic to deduct watermarks spread across lines
-  # Currenly num 10 below is magic !! 
-  if curr_lt_topic == '' and len(n_line) < 10:
+  # CAUTION: Currenly num 10 below is magic !! 
+  if curr_lt_topic == '' and (re.match('\s*\d+\.?\s',n_line) is None) and len(n_line) < 5:
     retval = True
   else:
     discard = re.compile('^\s*$|\s*(Contents|CONTENTS|PROOF|Proof)\s*')
@@ -219,9 +234,14 @@ def chk_for_discard(line):
 # START: Main
 print >>sys.stderr,"...Num. of i/p args: "+str(len(sys.argv))
 if (len(sys.argv) < 4):
-  print >>sys.stderr,"Usage: "+__file__+" <pdftotext o/p txt file> <mm or txt> <root node text> <opt:1|2 for col. nums>"
+  print >>sys.stderr,"Usage: "+__file__+" <pdftotext i/p txt file> <mm or txt> <root node text> <opt:1|2 for col. nums>"
   sys.exit(-1)
 ipF = open(sys.argv[1],'r')
+# CAUTION: This code assumes a specific test directory structure
+opFName = sys.argv[1].replace('real_ips','real_ops',1)
+opFName = opFName.replace('.txt','.mm',1)
+print >>sys.stderr,"...Writing MMap XML to file: %s" % (opFName)
+opF = open(opFName,'w')
 opTyp = sys.argv[2]
 root_txt = sys.argv[3]
 if len(sys.argv) > 4 :
@@ -230,10 +250,10 @@ else :
     num_ip_cols = '2' #Default is 2 columns
 if opTyp == 'mm' :
     # Print the header of the .mm XML file
-    print '<map version="1.0.0">'
+    print >>opF,'<map version="1.0.0">'
 
     # Print the first or root node
-    print '<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" LINK="'+sys.argv[1]+'" MODIFIED="1347382510988" TEXT="'+root_txt+'">'
+    print >>opF,'<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" LINK="'+sys.argv[1]+'" MODIFIED="1347382510988" TEXT="'+root_txt+'">'
     node_id = node_id + 1
 
 for line in ipF :
@@ -372,5 +392,14 @@ if len(rt_col_lines) != 0:
         op_rt_col_lines_txt()
 if opTyp == 'mm' :
     op_end_tags(1)
-    print '</node>'
-    print '</map>'
+    print >>opF,'</node>'
+    print >>opF,'</map>'
+# Check if the XML o/p is well-formed
+try:
+	parseXmlFile(opFName)
+	print >>sys.stderr,"XML file: %s is well-formed" % (opFName)
+except Exception, e:
+	print >>sys.stderr,"Error is %s" % (e)
+
+ipF.close()
+opF.close()

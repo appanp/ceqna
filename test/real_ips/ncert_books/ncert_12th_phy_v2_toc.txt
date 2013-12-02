@@ -1,0 +1,212 @@
+                                          CONTENTS
+
+
+  FOREWORD                                                                    v
+  PREFACE                                                                    vii
+
+
+
+
+                                                                            d
+  CHAPTER NINE
+
+
+
+
+                                                         he
+  R AY OPTICS AND OPTICAL INSTRUMENTS
+  9.1    Introduction                                                       309
+  9.2    Reflection of Light by Spherical Mirrors                           310
+
+
+
+
+                                                       is
+  9.3    Refraction                                                         316
+  9.4    Total Internal Reflection                                          319
+
+
+
+
+                                                     bl
+  9.5    Refraction at Spherical Surfaces and by Lenses                     323
+  9.6    Refraction through a Prism                                         330
+  9.7    Dispersion by a Prism                                              332
+          pu
+  9.8    Some Natural Phenomena due to Sunlight                             333
+  9.9    Optical Instruments                                                335
+     be T
+
+  CHAPTER TEN
+       re
+    o R
+
+
+  WAVE OPTICS
+  10.1   Introduction                                                       351
+  tt E
+
+
+
+  10.2   Huygens Principle                                                  353
+  10.3   Refraction and reflection of plane waves using Huygens Principle   355
+  10.4   Coherent and Incoherent Addition of Waves                          360
+     C
+
+
+
+
+  10.5   Interference of Light Waves and Young’s Experiment                 362
+  10.6   Diffraction                                                        367
+no N
+
+
+
+
+  10.7   Polarisation                                                       376
+
+
+  CHAPTER ELEVEN
+  ©
+
+
+
+
+  D UAL NATURE OF R ADIATION AND MATTER
+  11.1   Introduction                                                       386
+  11.2   Electron Emission                                                  387
+  11.3   Photoelectric Effect                                               388
+  11.4   Experimental Study of Photoelectric Effect                         389
+  11.5   Photoelectric Effect and Wave Theory of Light                      393
+  11.6   Einstein’s Photoelectric Equation: Energy Quantum of Radiation     393
+  11.7   Particle Nature of Light: The Photon                               395
+  11.8   Wave Nature of Matter                                              398
+  11.9   Davisson and Germer Experiment                                     403
+  CHAPTER TWELVE
+  ATOMS
+  12.1    Introduction                                                          414
+  12.2    Alpha-particle Scattering and Rutherford’s Nuclear Model of Atom      415
+  12.3    Atomic Spectra                                                        420
+  12.4    Bohr Model of the Hydrogen Atom                                       422
+  12.5    The Line Spectra of the Hydrogen Atom                                 428
+
+
+
+
+                                                                           d
+  12.6    DE Broglie’s Explanation of Bohr’s Second Postulate of Quantisation   430
+
+
+
+
+                                                                he
+  CHAPTER THIRTEEN
+  NUCLEI
+  13.1    Introduction                                                          438
+  13.2    Atomic Masses and Composition of Nucleus                              438
+
+
+
+
+                                                              is
+  13.3    Size of the Nucleus                                                   441
+  13.4    Mass-Energy and Nuclear Binding Energy                                442
+
+
+
+
+                                                            bl
+  13.5    Nuclear Force                                                         445
+  13.6    Radioactivity                                                         446
+  13.7    Nuclear Energy                                                        451
+          pu
+  CHAPTER FOURTEEN
+  SEMICONDUCTOR ELECTRONICS: MATERIALS, DEVICES AND SIMPLE CIRCUITS
+     be T
+
+  14.1    Introduction                                                          467
+       re
+    o R
+
+
+  14.2    Classification of Metals, Conductors and Semiconductors               468
+  14.3    Intrinsic Semiconductor                                               472
+  14.4    Extrinsic Semiconductor                                               474
+  tt E
+
+
+
+  14.5    p-n Junction                                                          478
+  14.6    Semiconductor diode                                                   479
+     C
+
+
+
+
+  14.7    Application of Junction Diode as a Rectifier                          483
+  14.8    Special Purpose p-n Junction Diodes                                   485
+no N
+
+
+
+
+  14.9    Junction Transistor                                                   490
+  14.10   Digital Electronics and Logic Gates                                   501
+  14.11   Integrated Circuits                                                   505
+  ©
+
+
+
+
+  CHAPTER FIFTEEN
+  COMMUNICATION SYSTEMS
+  15.1 Introduction                                                             513
+  15.2 Elements of a Communication System                                       513
+  15.3 Basic Terminology Used in Electronic Communication Systems               515
+  15.4 Bandwidth of Signals                                                     517
+  15.5 Bandwidth of Transmission Medium                                         518
+  15.6 Propagation of Electromagnetic Waves                                     519
+
+    xiv
+  15.7    Modulation and its Necessity                  522
+  15.8    Amplitude Modulation                          524
+  15.9    Production of Amplitude Modulated Wave        525
+  15.10   Detection of Amplitude Modulated Wave         526
+
+  ADDITIONAL INFORMATION                                528
+
+
+
+
+                                                      d
+  APPENDICES                                            532
+
+
+
+
+                                                       he
+  ANSWERS                                               534
+
+  BIBLIOGRAPHY                                          552
+
+  INDEX                                                 554
+
+
+
+
+                                                     is
+                                                   bl
+          pu
+     be T
+       re
+    o R
+  tt E
+     C
+no N
+  ©
+
+
+
+
+                                                       xv
+

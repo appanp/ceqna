@@ -45,24 +45,22 @@
 
    9. Differential Equations                                     379
       9.1 Introduction                                           379
-     C
 
 
 
 
       9.2 Basic Concepts                                         379
-      9.3 General and Particular Solutions of a                  383
-            Differential Equation
+      9.3 General and Particular Solutions of a 
+            Differential Equation                                383
 no N
 
 
 
 
-      9.4 Formation of a Differential Equation whose             385
-            General Solution is given
-      9.5 Methods of Solving First order, First Degree           391
-            Differential Equations
-  ©
+      9.4 Formation of a Differential Equation whose  
+            General Solution is given                            385
+      9.5 Methods of Solving First order, First Degree   
+            Differential Equations                               391
 
 
 

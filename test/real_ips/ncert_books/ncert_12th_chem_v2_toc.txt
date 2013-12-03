@@ -15,7 +15,7 @@
                                                          he
           10.1     Classification                                 282
           10.2     Nomenclature                                   283
-          10.3     Nature of C–X Bond                             285
+          10.3     Nature of C-X Bond                             285
 
 
 
@@ -98,8 +98,8 @@ no N
 
 
                                                        he
-           13.10 Importance of Diazonium Salts in Synthesis of       398
-                  Aromatic Compounds
+           13.10 Importance of Diazonium Salts in Synthesis of
+                  Aromatic Compounds                                 398
 
 
 

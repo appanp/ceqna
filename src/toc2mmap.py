@@ -33,13 +33,16 @@ def get_depth(ip_str) :
     if ip_str.startswith('PART') :
         dep = 1
         part_present = 1
-    elif ip_str.startswith('CHAPTER') :
+    elif ip_str.startswith('CHAPTER') or ip_str.startswith('Unit '):
 		dep = 1
     else:
         num_dots = num_pfx.count('.')
         if num_pfx.strip().endswith('.') :
             if num_dots == 1:
-				dep = num_dots
+                if part_present == 1:
+                    dep = num_dots + 1
+                else :
+                    dep = num_dots
             else :
 				dep = num_dots + 1
         else :
@@ -74,7 +77,7 @@ def op_end_tags(dep) :
 
 def op_lt_col_txt(tpc,pg_num) :
     global curr_lt_topic
-    initNumRe = re.compile('^(?P<sect_num>\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
+    initNumRe = re.compile('^(Unit\s)?(?P<sect_num>\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
 	# match() matches from the start while search() searches for pattern in entire string
     # Since using match() we could remove the ^ in the pattern as well.
     initNum = initNumRe.match(tpc.strip())
@@ -105,7 +108,7 @@ def op_lt_col_txt(tpc,pg_num) :
 
 def op_lt_col_mm(tpc,pg_num) :
     global curr_lt_topic, node_id
-    initNumRe = re.compile('^(?P<sect_num>\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
+    initNumRe = re.compile('^(Unit\s)?(?P<sect_num>\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
     # match() matches from the start while search() searches for pattern in entire string
     # Since using match() we could remove the ^ in the pattern as well.
     initNum = initNumRe.match(tpc.strip())
@@ -131,7 +134,7 @@ def op_lt_col_mm(tpc,pg_num) :
             print >>opF,'<node CREATED="1347382439772" ID="ID_'+str(node_id)+'" MODIFIED="1347382510988" TEXT="'+nodeTxt.encode('utf-8')+'">'
             node_id = node_id + 1
             section_num = initNum.group('sect_num')
-            print >>opF,"--- section_num:"+section_num
+            print >>sys.stderr,"--- section_num:"+section_num
             dep = get_depth(section_num)
             op_end_tags(dep)
             if debug:
@@ -142,7 +145,7 @@ def op_lt_col_mm(tpc,pg_num) :
             node_id = node_id + 1
        	curr_lt_topic = ''
     else :
-        initNumRe = re.compile('(PART|\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
+        initNumRe = re.compile('(CHAPTER|PART|Unit|\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
         initNum = initNumRe.match(tpc.strip())
         if initNum is not None :
             dep = get_depth(tpc.strip())
@@ -223,7 +226,7 @@ def chk_for_discard(line):
   if curr_lt_topic == '' and (re.match('\s*\d+\.?\s',n_line) is None) and len(n_line) < 5:
     retval = True
   else:
-    discard = re.compile('^\s*$|\s*(Contents|CONTENTS|PROOF|Proof)\s*')
+    discard = re.compile('^\s*$|\s*(Contents|CONTENTS|PREFACE|PROOF|Proof)\s*')
     line_to_discard = discard.search(line)
     if line_to_discard is not None:
 	  retval = True
@@ -354,7 +357,10 @@ for line in ipF :
         else :
             tpc_l = ' '.join([ cols[0], cols[1], cols[3] ])
             pg_num_l = cols[4]
-            op_lt_col_txt(tpc_l,pg_num_l)
+            if opTyp == 'mm' :
+	            op_lt_col_mm(tpc_l,pg_num_l)
+            else :
+                op_lt_col_txt(tpc_l,pg_num_l)
     elif len(cols) == 8 or len(cols) == 9 :
         # This can never happen: just print the line
         print >>sys.stderr,"...Split array has eight/nine segments"

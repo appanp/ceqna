@@ -67,7 +67,6 @@ no N
   Unit 3 Electrochemistry                                               63
          3.1   Electrochemical Cells                                    64
          3.2   Galvanic Cells                                           65
-  ©
 
 
 
@@ -76,7 +75,7 @@ no N
          3.4   Conductance of Electrolytic Solutions                    73
          3.5   Electrolytic Cells and Electrolysis                      83
          3.6   Batteries                                                86
-          3.7   Fuel Cells                                          88
+          3.7   Fuel Cells                                          88
           3.8   Corrosion                                           89
 
    Unit 4 Chemical Kinetics                                         93
@@ -150,33 +149,27 @@ no N
           7.2   Dinitrogen                                         169
           7.3   Ammonia                                            170
           7.4   Oxides of Nitrogen                                 172
-  ©
 
 
 
 
           7.5   Nitric Acid                                        173
-          7.6   Phosphorus – Allotropic Forms                      175
+          7.6   Phosphorus - Allotropic Forms                      175
           7.7   Phosphine                                          176
           7.8   Phosphorus Halides                                 177
           7.9   Oxoacids of Phosphorus                             178
 
                                              xiv
-          7.10 Group 16 Elements                                        180
+          7.10 Group 16 Elements                                        180
           7.11 Dioxygen                                                 184
           7.12 Simple Oxides                                            185
           7.13 Ozone                                                    185
-          7.14 Sulphur – Allotropic Forms                               187
+          7.14 Sulphur - Allotropic Forms                               187
           7.15 Sulphur Dioxide                                          188
           7.16 Oxoacids of Sulphur                                      189
           7.17 Sulphuric Acid                                           189
           7.18 Group 17 Elements                                        192
           7.19 Chlorine                                                 197
-
-
-
-
-                                                                               d
           7.20 Hydrogen Chloride                                        198
           7.21 Oxoacids of Halogens                                     199
 
@@ -209,18 +202,17 @@ no N
      be T
        re
   Unit 9 Coordination Compounds                                        237
-    o R
+    R
 
 
           9.1   Werner's Theory of Coordination Compounds               237
-          9.2   Definition of Some Important Terms Pertaining to        240
+          9.2   Definition of Some Important Terms Pertaining to
   tt E
 
 
 
-                Coordination Compounds
+                Coordination Compounds                                  240
           9.3   Nomenclature of Coordination Compounds                  241
-     C
 
 
 
@@ -234,9 +226,8 @@ no N
 
           9.6   Bonding in Metal Carbonyls                              254
           9.7   Stability of Coordination Compounds                     255
-          9.8   Importance and Applications of Coordination             256
-                Compounds
-  ©
+          9.8   Importance and Applications of Coordination
+                Compounds                                               256
 
 
 

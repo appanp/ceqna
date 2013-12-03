@@ -1,0 +1,90 @@
+<map version="1.0.0">
+<node CREATED="1347382439772" ID="ID_1" LINK="test/real_ips/ncert_books/ncert_12th_math_v1_toc.txt" MODIFIED="1347382510988" TEXT="12-Math1">
+<node CREATED="1347382439772" ID="ID_2" MODIFIED="1347382510988" TEXT="PART I he Foreword:v">
+<node CREATED="1347382439772" ID="ID_3_3" MODIFIED="1347382510988" TEXT="1. Relations and Functions:1">
+<node CREATED="1347382439772" ID="ID_3_4" MODIFIED="1347382510988" TEXT="1.1 Introduction:1">
+</node>
+<node CREATED="1347382439772" ID="ID_3_5" MODIFIED="1347382510988" TEXT="1.2 Types of Relations:2">
+</node>
+<node CREATED="1347382439772" ID="ID_3_6" MODIFIED="1347382510988" TEXT="1.3 Types of Functions:7">
+</node>
+<node CREATED="1347382439772" ID="ID_3_7" MODIFIED="1347382510988" TEXT="1.4 Composition of Functions and Invertible Function:12">
+</node>
+<node CREATED="1347382439772" ID="ID_3_8" MODIFIED="1347382510988" TEXT="1.5 Binary Operations:19">
+</node>
+<node CREATED="1347382439772" ID="ID_3_9" MODIFIED="1347382510988" TEXT="2.1 Introduction:33">
+</node>
+<node CREATED="1347382439772" ID="ID_3_10" MODIFIED="1347382510988" TEXT="2.2 Basic Concepts:33">
+</node>
+<node CREATED="1347382439772" ID="ID_3_11" MODIFIED="1347382510988" TEXT="2.3 Properties of Inverse Trigonometric Functions:42">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_12" MODIFIED="1347382510988" TEXT="3. Matrices:56">
+<node CREATED="1347382439772" ID="ID_3_13" MODIFIED="1347382510988" TEXT="3.1 Introduction:56">
+</node>
+<node CREATED="1347382439772" ID="ID_3_14" MODIFIED="1347382510988" TEXT="3.2 Matrix:56">
+</node>
+<node CREATED="1347382439772" ID="ID_3_15" MODIFIED="1347382510988" TEXT="3.3 Types of Matrices:61">
+</node>
+<node CREATED="1347382439772" ID="ID_3_16" MODIFIED="1347382510988" TEXT="3.4 Operations on Matrices:65">
+</node>
+<node CREATED="1347382439772" ID="ID_3_17" MODIFIED="1347382510988" TEXT="3.5 Transpose of a Matrix:83">
+</node>
+<node CREATED="1347382439772" ID="ID_3_18" MODIFIED="1347382510988" TEXT="3.6 Symmetric and Skew Symmetric Matrices:85">
+</node>
+<node CREATED="1347382439772" ID="ID_3_19" MODIFIED="1347382510988" TEXT="3.7 Elementary Operation (Transformation) of a Matrix:90">
+</node>
+<node CREATED="1347382439772" ID="ID_3_20" MODIFIED="1347382510988" TEXT="3.8 Invertible Matrices:91">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_21" MODIFIED="1347382510988" TEXT="4. Determinants:103">
+<node CREATED="1347382439772" ID="ID_3_22" MODIFIED="1347382510988" TEXT="4.1 Introduction:103">
+</node>
+<node CREATED="1347382439772" ID="ID_3_23" MODIFIED="1347382510988" TEXT="4.2 Determinant:103">
+</node>
+<node CREATED="1347382439772" ID="ID_3_24" MODIFIED="1347382510988" TEXT="4.3 Properties of Determinants:109">
+</node>
+<node CREATED="1347382439772" ID="ID_3_25" MODIFIED="1347382510988" TEXT="4.4 Area of a Triangle:121">
+</node>
+<node CREATED="1347382439772" ID="ID_3_26" MODIFIED="1347382510988" TEXT="4.5 Minors and Cofactors:123">
+</node>
+<node CREATED="1347382439772" ID="ID_3_27" MODIFIED="1347382510988" TEXT="4.6 Adjoint and Inverse of a Matrix:126">
+</node>
+<node CREATED="1347382439772" ID="ID_3_28" MODIFIED="1347382510988" TEXT="4.7 Applications of Determinants and Matrices:133">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_29" MODIFIED="1347382510988" TEXT="5. Continuity and Differentiability:147">
+<node CREATED="1347382439772" ID="ID_3_30" MODIFIED="1347382510988" TEXT="5.1 Introduction:147">
+</node>
+<node CREATED="1347382439772" ID="ID_3_31" MODIFIED="1347382510988" TEXT="5.2 Continuity:147">
+</node>
+<node CREATED="1347382439772" ID="ID_3_32" MODIFIED="1347382510988" TEXT="5.3 Differentiability:161">
+</node>
+<node CREATED="1347382439772" ID="ID_3_33" MODIFIED="1347382510988" TEXT="5.4 Exponential and Logarithmic Functions:170">
+</node>
+<node CREATED="1347382439772" ID="ID_3_34" MODIFIED="1347382510988" TEXT="5.5 Logarithmic Differentiation:174">
+</node>
+<node CREATED="1347382439772" ID="ID_3_35" MODIFIED="1347382510988" TEXT="5.6 Derivatives of Functions in Parametric Forms:179">
+</node>
+<node CREATED="1347382439772" ID="ID_3_36" MODIFIED="1347382510988" TEXT="5.7 Second Order Derivative:181">
+</node>
+<node CREATED="1347382439772" ID="ID_3_37" MODIFIED="1347382510988" TEXT="5.8 Mean Value Theorem:184">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_38" MODIFIED="1347382510988" TEXT="6. Application of Derivatives:194">
+<node CREATED="1347382439772" ID="ID_3_39" MODIFIED="1347382510988" TEXT="6.1 Introduction:194">
+</node>
+<node CREATED="1347382439772" ID="ID_3_40" MODIFIED="1347382510988" TEXT="6.2 Rate of Change of Quantities:194">
+</node>
+<node CREATED="1347382439772" ID="ID_3_41" MODIFIED="1347382510988" TEXT="6.3 Increasing and Decreasing Functions:199">
+</node>
+<node CREATED="1347382439772" ID="ID_3_42" MODIFIED="1347382510988" TEXT="6.4 Tangents and Normals:206">
+</node>
+<node CREATED="1347382439772" ID="ID_3_43" MODIFIED="1347382510988" TEXT="6.5 Approximations:213">
+</node>
+<node CREATED="1347382439772" ID="ID_3_44" MODIFIED="1347382510988" TEXT="6.6 Maxima and Minima:216">
+</node>
+</node>
+</node>
+</node>
+</map>

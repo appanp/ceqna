@@ -1,0 +1,190 @@
+<map version="1.0.0">
+<node CREATED="1347382439772" ID="ID_1" LINK="test/real_ips/ncert_books/ncert_12th_chem_v1_toc.txt" MODIFIED="1347382510988" TEXT="12-Chem1">
+<node CREATED="1347382439772" ID="ID_3_2" MODIFIED="1347382510988" TEXT="Unit 1 The Solid State:1">
+<node CREATED="1347382439772" ID="ID_3_3" MODIFIED="1347382510988" TEXT="1.1 General Characteristics of Solid State:2">
+</node>
+<node CREATED="1347382439772" ID="ID_3_4" MODIFIED="1347382510988" TEXT="1.2 Amorphous and Crystalline Solids:2">
+</node>
+<node CREATED="1347382439772" ID="ID_3_5" MODIFIED="1347382510988" TEXT="1.3 Classification of Crystalline Solids:4">
+</node>
+<node CREATED="1347382439772" ID="ID_3_6" MODIFIED="1347382510988" TEXT="1.4 Crystal Lattices and Unit Cells:7">
+</node>
+<node CREATED="1347382439772" ID="ID_3_7" MODIFIED="1347382510988" TEXT="1.5 Number of Atoms in a Unit Cell:10">
+</node>
+<node CREATED="1347382439772" ID="ID_3_8" MODIFIED="1347382510988" TEXT="1.6 Close-Packed Structures:12">
+</node>
+<node CREATED="1347382439772" ID="ID_3_9" MODIFIED="1347382510988" TEXT="1.7 Packing Efficiency:18">
+</node>
+<node CREATED="1347382439772" ID="ID_3_10" MODIFIED="1347382510988" TEXT="1.8 Calculations Involving Unit Cell Dimensions:20">
+</node>
+<node CREATED="1347382439772" ID="ID_3_11" MODIFIED="1347382510988" TEXT="1.9 Imperfections in Solids:22">
+</node>
+<node CREATED="1347382439772" ID="ID_3_12" MODIFIED="1347382510988" TEXT="1.10 Electrical Properties:24">
+</node>
+<node CREATED="1347382439772" ID="ID_3_13" MODIFIED="1347382510988" TEXT="1.11 Magnetic Properties:27">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_14" MODIFIED="1347382510988" TEXT="Unit 2 Solutions:33">
+<node CREATED="1347382439772" ID="ID_3_15" MODIFIED="1347382510988" TEXT="2.1 Types of Solutions:33">
+</node>
+<node CREATED="1347382439772" ID="ID_3_16" MODIFIED="1347382510988" TEXT="2.2 Expressing Concentration of Solutions:34">
+</node>
+<node CREATED="1347382439772" ID="ID_3_17" MODIFIED="1347382510988" TEXT="2.3 Solubility:37">
+</node>
+<node CREATED="1347382439772" ID="ID_3_18" MODIFIED="1347382510988" TEXT="2.4 Vapour Pressure of Liquid Solutions:41">
+</node>
+<node CREATED="1347382439772" ID="ID_3_19" MODIFIED="1347382510988" TEXT="2.5 Ideal and Non-ideal Solutions:45">
+</node>
+<node CREATED="1347382439772" ID="ID_3_20" MODIFIED="1347382510988" TEXT="2.6 Colligative Properties and Determination of Molar Mass:47">
+</node>
+<node CREATED="1347382439772" ID="ID_3_21" MODIFIED="1347382510988" TEXT="2.7 Abnormal Molar Masses:55">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_22" MODIFIED="1347382510988" TEXT="Unit 3 Electrochemistry:63">
+<node CREATED="1347382439772" ID="ID_3_23" MODIFIED="1347382510988" TEXT="3.1 Electrochemical Cells:64">
+</node>
+<node CREATED="1347382439772" ID="ID_3_24" MODIFIED="1347382510988" TEXT="3.2 Galvanic Cells:65">
+</node>
+<node CREATED="1347382439772" ID="ID_3_25" MODIFIED="1347382510988" TEXT="3.3 Nernst Equation:68">
+</node>
+<node CREATED="1347382439772" ID="ID_3_26" MODIFIED="1347382510988" TEXT="3.4 Conductance of Electrolytic Solutions:73">
+</node>
+<node CREATED="1347382439772" ID="ID_3_27" MODIFIED="1347382510988" TEXT="3.5 Electrolytic Cells and Electrolysis:83">
+</node>
+<node CREATED="1347382439772" ID="ID_3_28" MODIFIED="1347382510988" TEXT="3.6 Batteries:86">
+</node>
+<node CREATED="1347382439772" ID="ID_3_29" MODIFIED="1347382510988" TEXT="3.7 Fuel Cells:88">
+</node>
+<node CREATED="1347382439772" ID="ID_3_30" MODIFIED="1347382510988" TEXT="3.8 Corrosion:89">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_31" MODIFIED="1347382510988" TEXT="Unit 4 Chemical Kinetics:93">
+<node CREATED="1347382439772" ID="ID_3_32" MODIFIED="1347382510988" TEXT="4.1 Rate of a Chemical Reaction:94">
+</node>
+<node CREATED="1347382439772" ID="ID_3_33" MODIFIED="1347382510988" TEXT="4.2 Factors Influencing Rate of a Reaction:98">
+</node>
+<node CREATED="1347382439772" ID="ID_3_34" MODIFIED="1347382510988" TEXT="4.3 Integrated Rate Equations:103">
+</node>
+<node CREATED="1347382439772" ID="ID_3_35" MODIFIED="1347382510988" TEXT="4.4 Pseudo First Order Reaction:110">
+</node>
+<node CREATED="1347382439772" ID="ID_3_36" MODIFIED="1347382510988" TEXT="4.5 Temperature Dependence of the Rate of a Reaction:111">
+</node>
+<node CREATED="1347382439772" ID="ID_3_37" MODIFIED="1347382510988" TEXT="4.6 Collision Theory of Chemical Reactions:115">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_38" MODIFIED="1347382510988" TEXT="Unit 5 Surface Chemistry:121">
+<node CREATED="1347382439772" ID="ID_3_39" MODIFIED="1347382510988" TEXT="5.1 Adsorption:122">
+</node>
+<node CREATED="1347382439772" ID="ID_3_40" MODIFIED="1347382510988" TEXT="5.2 Catalysis:127">
+</node>
+<node CREATED="1347382439772" ID="ID_3_41" MODIFIED="1347382510988" TEXT="5.3 Colloids:134">
+</node>
+<node CREATED="1347382439772" ID="ID_3_42" MODIFIED="1347382510988" TEXT="5.4 Classification of Colloids:134">
+</node>
+<node CREATED="1347382439772" ID="ID_3_43" MODIFIED="1347382510988" TEXT="5.5 Emulsions:143">
+</node>
+<node CREATED="1347382439772" ID="ID_3_44" MODIFIED="1347382510988" TEXT="5.6 Colloids Around Us:143">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_45" MODIFIED="1347382510988" TEXT="Unit 6 General Principles and Processes of Isolation of Elements:147">
+<node CREATED="1347382439772" ID="ID_3_46" MODIFIED="1347382510988" TEXT="6.1 Occurrence of Metals:148">
+</node>
+<node CREATED="1347382439772" ID="ID_3_47" MODIFIED="1347382510988" TEXT="6.2 Concentration of Ores:148">
+</node>
+<node CREATED="1347382439772" ID="ID_3_48" MODIFIED="1347382510988" TEXT="6.3 Extraction of Crude Metal from Concentrated Ore:150">
+</node>
+<node CREATED="1347382439772" ID="ID_3_49" MODIFIED="1347382510988" TEXT="6.4 Thermodynamic Principles of Metallurgy:151">
+</node>
+<node CREATED="1347382439772" ID="ID_3_50" MODIFIED="1347382510988" TEXT="6.5 Electrochemical Principles of Metallurgy:157">
+</node>
+<node CREATED="1347382439772" ID="ID_3_51" MODIFIED="1347382510988" TEXT="6.6 Oxidation Reduction:158">
+</node>
+<node CREATED="1347382439772" ID="ID_3_52" MODIFIED="1347382510988" TEXT="6.7 Refining:159">
+</node>
+<node CREATED="1347382439772" ID="ID_3_53" MODIFIED="1347382510988" TEXT="6.8 Uses of Aluminium, Copper, Zinc and Iron:162">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_54" MODIFIED="1347382510988" TEXT="Unit 7 The p-Block Elements:165">
+<node CREATED="1347382439772" ID="ID_3_55" MODIFIED="1347382510988" TEXT="7.1 Group 15 Elements:165">
+</node>
+<node CREATED="1347382439772" ID="ID_3_56" MODIFIED="1347382510988" TEXT="7.2 Dinitrogen:169">
+</node>
+<node CREATED="1347382439772" ID="ID_3_57" MODIFIED="1347382510988" TEXT="7.3 Ammonia:170">
+</node>
+<node CREATED="1347382439772" ID="ID_3_58" MODIFIED="1347382510988" TEXT="7.4 Oxides of Nitrogen:172">
+</node>
+<node CREATED="1347382439772" ID="ID_3_59" MODIFIED="1347382510988" TEXT="7.5 Nitric Acid:173">
+</node>
+<node CREATED="1347382439772" ID="ID_3_60" MODIFIED="1347382510988" TEXT="7.6 Phosphorus - Allotropic Forms:175">
+</node>
+<node CREATED="1347382439772" ID="ID_3_61" MODIFIED="1347382510988" TEXT="7.7 Phosphine:176">
+</node>
+<node CREATED="1347382439772" ID="ID_3_62" MODIFIED="1347382510988" TEXT="7.8 Phosphorus Halides:177">
+</node>
+<node CREATED="1347382439772" ID="ID_3_63" MODIFIED="1347382510988" TEXT="7.9 Oxoacids of Phosphorus:178">
+</node>
+<node CREATED="1347382439772" ID="ID_3_64" MODIFIED="1347382510988" TEXT="7.10 Group 16 Elements:180">
+</node>
+<node CREATED="1347382439772" ID="ID_3_65" MODIFIED="1347382510988" TEXT="7.11 Dioxygen:184">
+</node>
+<node CREATED="1347382439772" ID="ID_3_66" MODIFIED="1347382510988" TEXT="7.12 Simple Oxides:185">
+</node>
+<node CREATED="1347382439772" ID="ID_3_67" MODIFIED="1347382510988" TEXT="7.13 Ozone:185">
+</node>
+<node CREATED="1347382439772" ID="ID_3_68" MODIFIED="1347382510988" TEXT="7.14 Sulphur - Allotropic Forms:187">
+</node>
+<node CREATED="1347382439772" ID="ID_3_69" MODIFIED="1347382510988" TEXT="7.15 Sulphur Dioxide:188">
+</node>
+<node CREATED="1347382439772" ID="ID_3_70" MODIFIED="1347382510988" TEXT="7.16 Oxoacids of Sulphur:189">
+</node>
+<node CREATED="1347382439772" ID="ID_3_71" MODIFIED="1347382510988" TEXT="7.17 Sulphuric Acid:189">
+</node>
+<node CREATED="1347382439772" ID="ID_3_72" MODIFIED="1347382510988" TEXT="7.18 Group 17 Elements:192">
+</node>
+<node CREATED="1347382439772" ID="ID_3_73" MODIFIED="1347382510988" TEXT="7.19 Chlorine:197">
+</node>
+<node CREATED="1347382439772" ID="ID_3_74" MODIFIED="1347382510988" TEXT="7.20 Hydrogen Chloride:198">
+</node>
+<node CREATED="1347382439772" ID="ID_3_75" MODIFIED="1347382510988" TEXT="7.21 Oxoacids of Halogens:199">
+</node>
+<node CREATED="1347382439772" ID="ID_3_76" MODIFIED="1347382510988" TEXT="7.22 Interhalogen Compounds:200">
+</node>
+<node CREATED="1347382439772" ID="ID_3_77" MODIFIED="1347382510988" TEXT="7.23 Group 18 Elements:202">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_78" MODIFIED="1347382510988" TEXT="Unit 8 The d-and f-Block Elements:209">
+<node CREATED="1347382439772" ID="ID_3_79" MODIFIED="1347382510988" TEXT="8.1 Position in the Periodic Table:210">
+</node>
+<node CREATED="1347382439772" ID="ID_3_80" MODIFIED="1347382510988" TEXT="8.2 Electronic Configurations of the d-Block Elements:210">
+</node>
+<node CREATED="1347382439772" ID="ID_3_81" MODIFIED="1347382510988" TEXT="8.3 General Properties of the Transition Elements ( d-Block):212">
+</node>
+<node CREATED="1347382439772" ID="ID_3_82" MODIFIED="1347382510988" TEXT="8.4 Some important Compounds of Transition Elements:224">
+</node>
+<node CREATED="1347382439772" ID="ID_3_83" MODIFIED="1347382510988" TEXT="8.5 The Lanthanoids:227">
+</node>
+<node CREATED="1347382439772" ID="ID_3_84" MODIFIED="1347382510988" TEXT="8.6 The Actinoids:230">
+</node>
+<node CREATED="1347382439772" ID="ID_3_85" MODIFIED="1347382510988" TEXT="8.7 Some Applications of d-and f-Block Elements:232">
+</node>
+</node>
+<node CREATED="1347382439772" ID="ID_3_86" MODIFIED="1347382510988" TEXT="Unit 9 Coordination Compounds:237">
+<node CREATED="1347382439772" ID="ID_3_87" MODIFIED="1347382510988" TEXT="9.1 Werner's Theory of Coordination Compounds:237">
+</node>
+<node CREATED="1347382439772" ID="ID_88" MODIFIED="1347382510988" TEXT="9.2 Definition of Some Important Terms Pertaining to tt E Coordination Compounds:240">
+</node>
+<node CREATED="1347382439772" ID="ID_3_89" MODIFIED="1347382510988" TEXT="9.3 Nomenclature of Coordination Compounds:241">
+</node>
+<node CREATED="1347382439772" ID="ID_3_90" MODIFIED="1347382510988" TEXT="9.4 Isomerism in Coordination Compounds:244">
+</node>
+<node CREATED="1347382439772" ID="ID_3_91" MODIFIED="1347382510988" TEXT="9.5 Bonding in Coordination Compounds:247">
+</node>
+<node CREATED="1347382439772" ID="ID_3_92" MODIFIED="1347382510988" TEXT="9.6 Bonding in Metal Carbonyls:254">
+</node>
+<node CREATED="1347382439772" ID="ID_3_93" MODIFIED="1347382510988" TEXT="9.7 Stability of Coordination Compounds:255">
+</node>
+<node CREATED="1347382439772" ID="ID_94" MODIFIED="1347382510988" TEXT="9.8 Importance and Applications of Coordination Compounds:256">
+</node>
+</node>
+</node>
+</map>

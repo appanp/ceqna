@@ -233,7 +233,7 @@ def chk_for_discard(line):
   if curr_lt_topic == '' and (re.match('\s*\d+\.?\s',n_line) is None) and len(n_line) <= 6:
     retval = True
   else:
-    discard = re.compile('^\s*$|\s*(Contents|CONTENTS|PREFACE|PROOF|Proof)\s*')
+    discard = re.compile('^\s*$|\s*(Contents|CONTENTS|PREFACE|PROOF|Proof)\s*|CHEMISTRY\s*$')
     line_to_discard = discard.search(line)
     if line_to_discard is not None:
 	  retval = True

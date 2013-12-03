@@ -27,7 +27,7 @@
 
                                                            is
             1.5 Laws of Chemical Combinations                                    11
-            1.6 Dalton’s Atomic Theory                                           13
+            1.6 Dalton's Atomic Theory                                           13
 
 
 
@@ -35,7 +35,7 @@
                                                          bl
             1.7 Atomic and Molecular Masses                                      13
 
-          pu1.8 Mole concept and Molar Masses                                    15
+          1.8 Mole concept and Molar Masses                                    15
             1.9 Percentage Composition                                           15
             1.10 Stoichiometry and Stoichiometric Calculations                   17
      be T
@@ -51,8 +51,8 @@
 
 
 
-            2.3 Developments Leading to the Bohr’s Model of Atom                 34
-            2.4 Bohr’s Model for Hydrogen Atom                                   42
+            2.3 Developments Leading to the Bohr's Model of Atom                 34
+            2.4 Bohr's Model for Hydrogen Atom                                   42
      C
 
 
@@ -76,14 +76,14 @@ no N
             3.3 Modern Periodic Law and the present form of the Periodic Table   75
             3.4 Nomenclature of Elements with Atomic Number > 100                75
             3.5   Electronic Configurations of Elements and the Periodic Table   78
-            3.6 Electronic Configurations and Types of Elements:                 79
-                  s, p, d, f-Blocks
+            3.6 Electronic Configurations and Types of Elements:
+                  s, p, d, f-Blocks                                              79
             3.7 Periodic Trends in Properties of Elements                        82
   8                                          (viii)                          CHEMISTRY
 
 
   Unit 4   Chemical Bonding and Molecular Structure                                96
-           4.1 Kössel-Lewis Approach to Chemical Bonding                           97
+           4.1 Kossel-Lewis Approach to Chemical Bonding                           97
            4.2 Ionic or Electrovalent Bond                                       102
            4.3 Bond Parameters                                                   103
            4.4 The Valence Shell Electron Pair Repulsion (VSEPR) Theory          108
@@ -117,10 +117,8 @@ no N
            5.2   Thermal Energy                                                  135
            5.3 Intermolecular Forces vs Thermal Interactions                     135
           pu
-           5.4   The Gaseous State
-           5.5 The Gas Laws
-                                                                                 135
-                                                                                 136
+           5.4   The Gaseous State                                               135
+           5.5 The Gas Laws                                                    136
      be T
 
            5.6 Ideal Gas Equation                                                141
@@ -149,8 +147,8 @@ no N
 
 
            6.2   Applications                                                    158
-           6.3 Measurement of ΔU and ΔH: Calorimetry                             163
-           6.4   Enthalpy Change, Δr H of a Reaction                             164
+           6.3 Measurement of dU and dH: Calorimetry                             163
+           6.4   Enthalpy Change, dr H of a Reaction                             164
   ©
 
 
@@ -162,7 +160,7 @@ no N
 
   Unit 7   Equilibrium                                                           185
            7.1 Equilibrium in Physical Processes                                 186
-           7.2   Equilibrium in Chemical Processes – Dynamic Equilibrium         189
+           7.2   Equilibrium in Chemical Processes - Dynamic Equilibrium         189
   ANSWERS                                      ( i x)                         9
 
 
@@ -170,8 +168,8 @@ no N
             7.4   Homogeneous Equilibria                                  194
             7.5 Heterogeneous equilibria                                  197
             7.6   Applications of Equilibrium Constants                   198
-            7.7   Relationship between Equilibrium Constant K,            201
-                  Reaction Quotient Q and Gibbs Energy G
+            7.7   Relationship between Equilibrium Constant K,
+                  Reaction Quotient Q and Gibbs Energy G                  201
 
 
 
@@ -201,7 +199,7 @@ no N
                                                           bl
             Answers                                                       245
             Index                                                         251
-          puSupplementary Material                                       I – IV
+          puSupplementary Material                                       I - IV
      be T
        re
     o R

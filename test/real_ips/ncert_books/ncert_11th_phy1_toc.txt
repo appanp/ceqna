@@ -278,12 +278,11 @@ CK
 
                                                                                  h
      8.7    Gravitational potential energy                                     191
-     8.8
 
 
 
                       T li                                                     s
-            Escape speed                                                       193
+     8.8       Escape speed                                                       193
      8.9    Earth satellite                                                    194
      8.10   Energy of an orbiting satellite                                    195
 

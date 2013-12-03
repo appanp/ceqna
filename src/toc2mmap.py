@@ -25,6 +25,7 @@ def parseXmlFile(file):
 	parser = xml.parsers.expat.ParserCreate()
 	parser.ParseFile(open(file,'r'))
 
+# TODO/l Re-visit to see if it works for all kinds of variants
 def get_depth(ip_str) :
     global part_present
     dep = 0
@@ -34,7 +35,8 @@ def get_depth(ip_str) :
         dep = 1
         part_present = 1
     elif ip_str.startswith('CHAPTER') or ip_str.startswith('Unit '):
-		dep = 1
+        part_present = 1
+        dep = 1
     else:
         num_dots = num_pfx.count('.')
         if num_pfx.strip().endswith('.') :
@@ -46,9 +48,9 @@ def get_depth(ip_str) :
             else :
 				dep = num_dots + 1
         else :
-            if part_present :
-			    dep = num_dots + 2
-            else :
+#            if part_present :
+#			    dep = num_dots + 2
+#            else :
 				dep = num_dots + 1
     print >>sys.stderr,"*** get_depth() ip_str:"+ip_str+" dep:"+str(dep)
     return dep
@@ -158,8 +160,13 @@ def op_lt_col_mm(tpc,pg_num) :
             node_id = node_id + 1
         else:
             # Take care of case when it is PART<spc><Num> which is taken as page num
-            if tpc.strip().startswith('PART') or tpc.strip().startswith('CHAPTER'):
-                curr_lt_topic = tpc.strip() + ' ' +pg_num.strip()
+            # Sometimes CHAPTER occurs as C H A P T E R, take care of this as well
+            # CAUTION: Doing the sub twice should take care of removing all single-spaced for the i/p string CHAPTER , UNIT, etc.
+            print >>sys.stderr,"...i/p str to op_lt_col_mm() is: ",tpc
+            tmp_tpc = re.sub(r'([a-zA-Z]) ([a-zA-Z])',r'\1\2',tpc.strip())
+            tmp_tpc = re.sub(r'([a-zA-Z]) ([a-zA-Z])',r'\1\2',tmp_tpc)
+            if tmp_tpc.startswith('PART') or tmp_tpc.startswith('CHAPTER'):
+                curr_lt_topic = tmp_tpc + ' ' +pg_num.strip()
 
 def append_rt_col_lines(tpc,pg_num) :
     global rt_col_lines, curr_rt_topic
@@ -223,7 +230,7 @@ def chk_for_discard(line):
   n_line = ' '.join(line.split())
   # TODO: We need more robust logic to deduct watermarks spread across lines
   # CAUTION: Currenly num 10 below is magic !! 
-  if curr_lt_topic == '' and (re.match('\s*\d+\.?\s',n_line) is None) and len(n_line) < 5:
+  if curr_lt_topic == '' and (re.match('\s*\d+\.?\s',n_line) is None) and len(n_line) <= 6:
     retval = True
   else:
     discard = re.compile('^\s*$|\s*(Contents|CONTENTS|PREFACE|PROOF|Proof)\s*')

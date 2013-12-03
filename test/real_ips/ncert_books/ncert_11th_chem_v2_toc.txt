@@ -92,7 +92,7 @@ no N
             11.7    Allotropes of Carbon                                     317
             11.8    Some Important Compounds of Carbon and Silicon           319
 
-  Unit 12   Organic Chemistry – Some Basic Principles and Techniques         326
+  Unit 12   Organic Chemistry - Some Basic Principles and Techniques         326
             12.1 General Introduction                                        326
 
 
@@ -125,7 +125,7 @@ no N
             12.10 Quantitative Analysis                                      355
 
   Unit 13   Hydrocarbons                                                     365
-          pu13.1 Classification                                              365
+          13.1 Classification                                              365
             13.2 Alkanes                                                     366
      be T
 

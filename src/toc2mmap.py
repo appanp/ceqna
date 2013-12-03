@@ -34,7 +34,7 @@ def get_depth(ip_str) :
     if ip_str.startswith('PART') :
         dep = 1
         part_present = 1
-    elif ip_str.startswith('CHAPTER') or ip_str.startswith('Unit '):
+    elif ip_str.startswith('CHAPTER') or ip_str.startswith('Ch:') or ip_str.startswith('Unit '):
         part_present = 1
         dep = 1
     else:
@@ -147,7 +147,7 @@ def op_lt_col_mm(tpc,pg_num) :
             node_id = node_id + 1
        	curr_lt_topic = ''
     else :
-        initNumRe = re.compile('(CHAPTER|PART|Unit|\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
+        initNumRe = re.compile('(Ch:|CHAPTER|PART|Unit|\d+\.?|\d+\.\d+|\d+\.\d+\.\d+)\s')
         initNum = initNumRe.match(tpc.strip())
         if initNum is not None :
             dep = get_depth(tpc.strip())
@@ -181,7 +181,7 @@ def append_rt_col_lines(tpc,pg_num) :
             rt_col_lines.append(tpc.strip() + ':' + pg_num.strip())
         curr_rt_topic = ''
     else :
-        if tpc.strip().startswith('PART') or tpc.strip().startswith('CHAPTER'):
+        if tpc.strip().startswith('PART') or tpc.strip().startswith('Ch:') or tpc.strip().startswith('CHAPTER'):
             curr_rt_topic = tpc.strip() + ' ' + pg_num.strip()
         else :
             rt_col_lines.append(tpc.strip() + ':' + pg_num.strip())

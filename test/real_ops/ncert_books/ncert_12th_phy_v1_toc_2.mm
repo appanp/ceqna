@@ -1,0 +1,13 @@
+<map version="1.0.0">
+<node CREATED="1347382439772" ID="ID_1" LINK="test/real_ips/ncert_books/ncert_12th_phy_v1_toc_2.txt" MODIFIED="1347382510988" TEXT="12-Phy1">
+<node CREATED="1347382439772" ID="ID_2" MODIFIED="1347382510988" TEXT="CHAPTER ONE e ELECTRIC CHARGES AND FIELDS h">
+<node CREATED="1347382439772" ID="ID_3" MODIFIED="1347382510988" TEXT="1.1 Introduction:1">
+</node>
+<node CREATED="1347382439772" ID="ID_3_4" MODIFIED="1347382510988" TEXT="1.2 Electric Charges:1">
+</node>
+<node CREATED="1347382439772" ID="ID_3_5" MODIFIED="1347382510988" TEXT="1.3 Conductors and Insulators:5">
+</node>
+<node CREATED="1347382439772" ID="ID_3_6" MODIFIED="1347382510988" TEXT="1.4 Charging by Induction:6">
+</node>
+<node CREATED="1347382439772" ID="ID_3_7" MODIFIED="1347382510988" TEXT="1.5 Basic Properties of Electric Charge:8">
+</node>
